@@ -1,0 +1,79 @@
+# =========================
+# Unity generated folders
+# =========================
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# =========================
+# Memory captures
+# =========================
+
+MemoryCaptures/
+
+# =========================
+# Asset import / generated
+# =========================
+
+Assets/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# =========================
+# Visual Studio / Rider
+# =========================
+
+.vs/
+.idea/
+.vscode/
+
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+
+# =========================
+# OS files
+# =========================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Crash reports
+# =========================
+
+sysinfo.txt
+
+# =========================
+# Unity cache / generated
+# =========================
+
+*.pidb.meta
+*.pdb
+*.mdb
+
+# =========================
+# Builds
+# =========================
+
+*.apk
+*.aab
+*.app
+*.exe
+*.unitypackage
+
+# =========================
+# Temporary files
+# =========================
+
+*.tmp
+*.temp
+*.bak
