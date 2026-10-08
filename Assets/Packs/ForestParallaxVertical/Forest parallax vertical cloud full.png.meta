@@ -1,0 +1,1248 @@
+fileFormatVersion: 2
+guid: b7cc838dfb6eeaf45bc522ff3222187a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8635159574872507657
+    second: Forest parallax vertical cloud full_0
+  - first:
+      213: -6147740503284629043
+    second: Forest parallax vertical cloud full_1
+  - first:
+      213: -5082764037009942788
+    second: Forest parallax vertical cloud full_2
+  - first:
+      213: -7611898270205619196
+    second: Forest parallax vertical cloud full_3
+  - first:
+      213: -4171297323557965427
+    second: Forest parallax vertical cloud full_4
+  - first:
+      213: -1701594088236246590
+    second: Forest parallax vertical cloud full_5
+  - first:
+      213: -5702716043687077261
+    second: Forest parallax vertical cloud full_6
+  - first:
+      213: 344106420002981737
+    second: Forest parallax vertical cloud full_7
+  - first:
+      213: 8052243476534869246
+    second: Forest parallax vertical cloud full_8
+  - first:
+      213: 6052977187292668933
+    second: Forest parallax vertical cloud full_9
+  - first:
+      213: 4950019264945571146
+    second: Forest parallax vertical cloud full_10
+  - first:
+      213: -2095900624056925877
+    second: Forest parallax vertical cloud full_11
+  - first:
+      213: 8812491354381518748
+    second: Forest parallax vertical cloud full_12
+  - first:
+      213: 8531768636344206785
+    second: Forest parallax vertical cloud full_13
+  - first:
+      213: -3470798000309185901
+    second: Forest parallax vertical cloud full_14
+  - first:
+      213: -1998129278863276945
+    second: Forest parallax vertical cloud full_15
+  - first:
+      213: 4043178585437044722
+    second: Forest parallax vertical cloud full_16
+  - first:
+      213: 8103303337424544114
+    second: Forest parallax vertical cloud full_17
+  - first:
+      213: 6822641269750404689
+    second: Forest parallax vertical cloud full_18
+  - first:
+      213: -5271328458694110949
+    second: Forest parallax vertical cloud full_19
+  - first:
+      213: 365421289569579333
+    second: Forest parallax vertical cloud full_20
+  - first:
+      213: 1546790975005585934
+    second: Forest parallax vertical cloud full_21
+  - first:
+      213: 5994815821141512695
+    second: Forest parallax vertical cloud full_22
+  - first:
+      213: -392120216092272916
+    second: Forest parallax vertical cloud full_23
+  - first:
+      213: -8918836441580387805
+    second: Forest parallax vertical cloud full_24
+  - first:
+      213: -3366165210045280793
+    second: Forest parallax vertical cloud full_25
+  - first:
+      213: -311556510163164668
+    second: Forest parallax vertical cloud full_26
+  - first:
+      213: -8511760866079209629
+    second: Forest parallax vertical cloud full_27
+  - first:
+      213: 6204462886767252464
+    second: Forest parallax vertical cloud full_28
+  - first:
+      213: -7170484491191360482
+    second: Forest parallax vertical cloud full_29
+  - first:
+      213: 9046012551395979151
+    second: Forest parallax vertical cloud full_30
+  - first:
+      213: 1499381391332133953
+    second: Forest parallax vertical cloud full_31
+  - first:
+      213: 3633536773547599813
+    second: Forest parallax vertical cloud full_32
+  - first:
+      213: -1129442408109504879
+    second: Forest parallax vertical cloud full_33
+  - first:
+      213: 3621784531052967989
+    second: Forest parallax vertical cloud full_34
+  - first:
+      213: 4722316385955813378
+    second: Forest parallax vertical cloud full_35
+  - first:
+      213: 6058003400806799061
+    second: Forest parallax vertical cloud full_36
+  - first:
+      213: -2249871124186317918
+    second: Forest parallax vertical cloud full_37
+  - first:
+      213: 9113239160692372857
+    second: Forest parallax vertical cloud full_38
+  - first:
+      213: 8074006956130795420
+    second: Forest parallax vertical cloud full_39
+  - first:
+      213: 5952523964036755572
+    second: Forest parallax vertical cloud full_40
+  - first:
+      213: -5355886879885049597
+    second: Forest parallax vertical cloud full_41
+  - first:
+      213: -6226916374346615141
+    second: Forest parallax vertical cloud full_42
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2741
+        width: 838
+        height: 621
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 905c61fd1ef36d770800000000000000
+      internalID: 8635159574872507657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_1
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 3082
+        width: 213
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc1407a9596deaaa0800000000000000
+      internalID: -6147740503284629043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_2
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 2742
+        width: 427
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf654e8b9056679b0800000000000000
+      internalID: -5082764037009942788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_3
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 2616
+        width: 59
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404dbf15ada1d5690800000000000000
+      internalID: -7611898270205619196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2513
+        width: 68
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d813ac84f239c16c0800000000000000
+      internalID: -4171297323557965427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_5
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 2513
+        width: 191
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c916c23139b268e0800000000000000
+      internalID: -1701594088236246590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_6
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 2482
+        width: 154
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a5c19f8f1ebd0b0800000000000000
+      internalID: -5702716043687077261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2406
+        width: 169
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 967853147f286c400800000000000000
+      internalID: 344106420002981737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_8
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 2320
+        width: 312
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc31df77c05fbf60800000000000000
+      internalID: 8052243476534869246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_9
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 2401
+        width: 92
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5046f1a8eae700450800000000000000
+      internalID: 6052977187292668933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_10
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 2394
+        width: 283
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a45cb6e8b4002b440800000000000000
+      internalID: 4950019264945571146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_11
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 2416
+        width: 5
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b41419aac7dd9e2e0800000000000000
+      internalID: -2095900624056925877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_12
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1991
+        width: 474
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c978c1c32324c4a70800000000000000
+      internalID: 8812491354381518748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_13
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 2189
+        width: 107
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c58d1b1f5ee66670800000000000000
+      internalID: 8531768636344206785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_14
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 1898
+        width: 87
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3925f689b9f35dfc0800000000000000
+      internalID: -3470798000309185901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_15
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1690
+        width: 1051
+        height: 453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f640c06e1083544e0800000000000000
+      internalID: -1998129278863276945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_16
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1572
+        width: 367
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fff07470814c1830800000000000000
+      internalID: 4043178585437044722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_17
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1549
+        width: 272
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2716d66c377b47070800000000000000
+      internalID: 8103303337424544114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_18
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 1644
+        width: 181
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15694614614eeae50800000000000000
+      internalID: 6822641269750404689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_19
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 1672
+        width: 117
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b11512d02ba78d6b0800000000000000
+      internalID: -5271328458694110949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_20
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1655
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 541f82e0abc321500800000000000000
+      internalID: 365421289569579333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_21
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 1649
+        width: 47
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02fcfe423e477510800000000000000
+      internalID: 1546790975005585934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_22
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 1598
+        width: 48
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f118093a3dd13350800000000000000
+      internalID: 5994815821141512695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_23
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 1598
+        width: 122
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce61292bdb8ee8af0800000000000000
+      internalID: -392120216092272916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_24
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 1581
+        width: 30
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 322cac9a28de93480800000000000000
+      internalID: -8918836441580387805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_25
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1560
+        width: 52
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ed09ff739af841d0800000000000000
+      internalID: -3366165210045280793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_26
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1550
+        width: 39
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 402a34431012dabf0800000000000000
+      internalID: -311556510163164668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_27
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 1498
+        width: 81
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367074ce69620e980800000000000000
+      internalID: -8511760866079209629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_28
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 1481
+        width: 126
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f35bd37f1eaa1650800000000000000
+      internalID: 6204462886767252464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_29
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1451
+        width: 42
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e14671b98525d7c90800000000000000
+      internalID: -7170484491191360482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_30
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1416
+        width: 71
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8faea7dc74e98d70800000000000000
+      internalID: 9046012551395979151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_31
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 1422
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14cce2d6e6fdec410800000000000000
+      internalID: 1499381391332133953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1146
+        width: 174
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c7af99b17aec6230800000000000000
+      internalID: 3633536773547599813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_33
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 1216
+        width: 42
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1960f562d1a6350f0800000000000000
+      internalID: -1129442408109504879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_34
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 1053
+        width: 710
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 538ba6a87d9234230800000000000000
+      internalID: 3621784531052967989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_35
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1105
+        width: 185
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20817edabb9098140800000000000000
+      internalID: 4722316385955813378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_36
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 1151
+        width: 55
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d692311ff9521450800000000000000
+      internalID: 6058003400806799061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_37
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 1104
+        width: 59
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab3774022ad6c0e0800000000000000
+      internalID: -2249871124186317918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1078
+        width: 89
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9757f3e8bbab87e70800000000000000
+      internalID: 9113239160692372857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_39
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1061
+        width: 150
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f75367c82ac0070800000000000000
+      internalID: 8074006956130795420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_40
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 1072
+        width: 39
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4703969e10d9b9250800000000000000
+      internalID: 5952523964036755572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_41
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 1059
+        width: 138
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 301c64b62411ca5b0800000000000000
+      internalID: -5355886879885049597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Forest parallax vertical cloud full_42
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 1075
+        width: 48
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b96b1059c8c8599a0800000000000000
+      internalID: -6226916374346615141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Forest parallax vertical cloud full_0: 8635159574872507657
+      Forest parallax vertical cloud full_1: -6147740503284629043
+      Forest parallax vertical cloud full_10: 4950019264945571146
+      Forest parallax vertical cloud full_11: -2095900624056925877
+      Forest parallax vertical cloud full_12: 8812491354381518748
+      Forest parallax vertical cloud full_13: 8531768636344206785
+      Forest parallax vertical cloud full_14: -3470798000309185901
+      Forest parallax vertical cloud full_15: -1998129278863276945
+      Forest parallax vertical cloud full_16: 4043178585437044722
+      Forest parallax vertical cloud full_17: 8103303337424544114
+      Forest parallax vertical cloud full_18: 6822641269750404689
+      Forest parallax vertical cloud full_19: -5271328458694110949
+      Forest parallax vertical cloud full_2: -5082764037009942788
+      Forest parallax vertical cloud full_20: 365421289569579333
+      Forest parallax vertical cloud full_21: 1546790975005585934
+      Forest parallax vertical cloud full_22: 5994815821141512695
+      Forest parallax vertical cloud full_23: -392120216092272916
+      Forest parallax vertical cloud full_24: -8918836441580387805
+      Forest parallax vertical cloud full_25: -3366165210045280793
+      Forest parallax vertical cloud full_26: -311556510163164668
+      Forest parallax vertical cloud full_27: -8511760866079209629
+      Forest parallax vertical cloud full_28: 6204462886767252464
+      Forest parallax vertical cloud full_29: -7170484491191360482
+      Forest parallax vertical cloud full_3: -7611898270205619196
+      Forest parallax vertical cloud full_30: 9046012551395979151
+      Forest parallax vertical cloud full_31: 1499381391332133953
+      Forest parallax vertical cloud full_32: 3633536773547599813
+      Forest parallax vertical cloud full_33: -1129442408109504879
+      Forest parallax vertical cloud full_34: 3621784531052967989
+      Forest parallax vertical cloud full_35: 4722316385955813378
+      Forest parallax vertical cloud full_36: 6058003400806799061
+      Forest parallax vertical cloud full_37: -2249871124186317918
+      Forest parallax vertical cloud full_38: 9113239160692372857
+      Forest parallax vertical cloud full_39: 8074006956130795420
+      Forest parallax vertical cloud full_4: -4171297323557965427
+      Forest parallax vertical cloud full_40: 5952523964036755572
+      Forest parallax vertical cloud full_41: -5355886879885049597
+      Forest parallax vertical cloud full_42: -6226916374346615141
+      Forest parallax vertical cloud full_5: -1701594088236246590
+      Forest parallax vertical cloud full_6: -5702716043687077261
+      Forest parallax vertical cloud full_7: 344106420002981737
+      Forest parallax vertical cloud full_8: 8052243476534869246
+      Forest parallax vertical cloud full_9: 6052977187292668933
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
