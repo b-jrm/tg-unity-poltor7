@@ -1,0 +1,676 @@
+fileFormatVersion: 2
+guid: 8c8a4199c84ab91468f83b1cf24064c4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5259668766311959852
+    second: Guardia_sheet_0
+  - first:
+      213: 1947722236979843722
+    second: Guardia_sheet_1
+  - first:
+      213: 3107302171075694940
+    second: Guardia_sheet_2
+  - first:
+      213: 6348974011507654522
+    second: Guardia_sheet_3
+  - first:
+      213: 7415456859239129245
+    second: Guardia_sheet_4
+  - first:
+      213: -1521402554335023204
+    second: Guardia_sheet_5
+  - first:
+      213: 260021347072078498
+    second: Guardia_sheet_6
+  - first:
+      213: 669690037266155090
+    second: Guardia_sheet_7
+  - first:
+      213: 726048725266561252
+    second: Guardia_sheet_8
+  - first:
+      213: -5649719059524665616
+    second: Guardia_sheet_9
+  - first:
+      213: 5266446750095468820
+    second: Guardia_sheet_10
+  - first:
+      213: -3546400989141211387
+    second: Guardia_sheet_11
+  - first:
+      213: -4214300107260894265
+    second: Guardia_sheet_12
+  - first:
+      213: -492529496171617554
+    second: Guardia_sheet_13
+  - first:
+      213: 3456634778786752283
+    second: Guardia_sheet_14
+  - first:
+      213: 2979295357236426433
+    second: Guardia_sheet_15
+  - first:
+      213: -4063832919581205536
+    second: Guardia_sheet_16
+  - first:
+      213: 8139344637672975862
+    second: Guardia_sheet_17
+  - first:
+      213: -4972318171569901397
+    second: Guardia_sheet_18
+  - first:
+      213: 1843951399780486614
+    second: Guardia_sheet_19
+  - first:
+      213: -6888492521423937191
+    second: Guardia_sheet_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Guardia_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 127
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d232cbbf17e107b0800000000000000
+      internalID: -5259668766311959852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardia_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 95
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8210581e03b70b10800000000000000
+      internalID: 1947722236979843722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardia_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 95
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5154c48cda5f1b20800000000000000
+      internalID: 3107302171075694940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardia_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 127
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7fb914a9361c1850800000000000000
+      internalID: 6348974011507654522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardia_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 95
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d90ae2689bef8e660800000000000000
+      internalID: 7415456859239129245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardia_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 127
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f2d740074e2eae0800000000000000
+      internalID: -1521402554335023204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardia_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 95
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2ff3a9908cb9300800000000000000
+      internalID: 260021347072078498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardia_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 127
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2560edc6a873b4900800000000000000
+      internalID: 669690037266155090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardia_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 95
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e873270871731a00800000000000000
+      internalID: 726048725266561252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardia_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 95
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe3748e27a2891b0800000000000000
+      internalID: -5649719059524665616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardia_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 31
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41963f79a6d261940800000000000000
+      internalID: 5266446750095468820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardia_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 63
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 507e42b0717a8cec0800000000000000
+      internalID: -3546400989141211387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardia_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 63
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c3e2d9716cc385c0800000000000000
+      internalID: -4214300107260894265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardia_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 31
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee2e943680f2a29f0800000000000000
+      internalID: -492529496171617554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardia_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 63
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1768db640f68ff20800000000000000
+      internalID: 3456634778786752283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardia_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c63c09a755985920800000000000000
+      internalID: 2979295357236426433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardia_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ebd2d1ad7d5a97c0800000000000000
+      internalID: -4063832919581205536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardia_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd6af8e2d2c4f070800000000000000
+      internalID: 8139344637672975862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardia_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 0
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba03b59a7f6cefab0800000000000000
+      internalID: -4972318171569901397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardia_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 0
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd00074708079910800000000000000
+      internalID: 1843951399780486614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Guardia_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 951679e6c882760a0800000000000000
+      internalID: -6888492521423937191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Guardia_sheet_0: -5259668766311959852
+      Guardia_sheet_1: 1947722236979843722
+      Guardia_sheet_10: 5266446750095468820
+      Guardia_sheet_11: -3546400989141211387
+      Guardia_sheet_12: -4214300107260894265
+      Guardia_sheet_13: -492529496171617554
+      Guardia_sheet_14: 3456634778786752283
+      Guardia_sheet_15: 2979295357236426433
+      Guardia_sheet_16: -4063832919581205536
+      Guardia_sheet_17: 8139344637672975862
+      Guardia_sheet_18: -4972318171569901397
+      Guardia_sheet_19: 1843951399780486614
+      Guardia_sheet_2: 3107302171075694940
+      Guardia_sheet_20: -6888492521423937191
+      Guardia_sheet_3: 6348974011507654522
+      Guardia_sheet_4: 7415456859239129245
+      Guardia_sheet_5: -1521402554335023204
+      Guardia_sheet_6: 260021347072078498
+      Guardia_sheet_7: 669690037266155090
+      Guardia_sheet_8: 726048725266561252
+      Guardia_sheet_9: -5649719059524665616
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

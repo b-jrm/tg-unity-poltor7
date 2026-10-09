@@ -1,0 +1,507 @@
+{
+  "ppu": 32,
+  "characters": [
+    {
+      "name": "Ike",
+      "display": "Ike Ramos (jugador)",
+      "file": "Ike_sheet.png",
+      "cell": 32,
+      "pivotX": 0.5,
+      "pivotY": 0.047,
+      "anims": [
+        {
+          "name": "Idle",
+          "row": 0,
+          "frames": 4,
+          "fps": 8,
+          "loop": true
+        },
+        {
+          "name": "Walk",
+          "row": 1,
+          "frames": 6,
+          "fps": 10,
+          "loop": true
+        },
+        {
+          "name": "Run",
+          "row": 2,
+          "frames": 6,
+          "fps": 14,
+          "loop": true
+        },
+        {
+          "name": "Jump",
+          "row": 3,
+          "frames": 3,
+          "fps": 8,
+          "loop": false
+        },
+        {
+          "name": "Shoot",
+          "row": 4,
+          "frames": 3,
+          "fps": 12,
+          "loop": false
+        },
+        {
+          "name": "Melee",
+          "row": 5,
+          "frames": 4,
+          "fps": 12,
+          "loop": false
+        },
+        {
+          "name": "Hurt",
+          "row": 6,
+          "frames": 2,
+          "fps": 10,
+          "loop": false
+        },
+        {
+          "name": "Die",
+          "row": 7,
+          "frames": 6,
+          "fps": 10,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "name": "Mara",
+      "display": "Dra. Mara Quiroz",
+      "file": "Mara_sheet.png",
+      "cell": 32,
+      "pivotX": 0.5,
+      "pivotY": 0.047,
+      "anims": [
+        {
+          "name": "Idle",
+          "row": 0,
+          "frames": 4,
+          "fps": 8,
+          "loop": true
+        },
+        {
+          "name": "Walk",
+          "row": 1,
+          "frames": 6,
+          "fps": 10,
+          "loop": true
+        },
+        {
+          "name": "Talk",
+          "row": 2,
+          "frames": 4,
+          "fps": 8,
+          "loop": true
+        }
+      ]
+    },
+    {
+      "name": "Raizal",
+      "display": "Raizal",
+      "file": "Raizal_sheet.png",
+      "cell": 32,
+      "pivotX": 0.5,
+      "pivotY": 0.047,
+      "anims": [
+        {
+          "name": "Idle",
+          "row": 0,
+          "frames": 4,
+          "fps": 8,
+          "loop": true
+        },
+        {
+          "name": "Walk",
+          "row": 1,
+          "frames": 6,
+          "fps": 8,
+          "loop": true
+        },
+        {
+          "name": "Run",
+          "row": 2,
+          "frames": 6,
+          "fps": 14,
+          "loop": true
+        },
+        {
+          "name": "Attack",
+          "row": 3,
+          "frames": 4,
+          "fps": 12,
+          "loop": false
+        },
+        {
+          "name": "Hurt",
+          "row": 4,
+          "frames": 2,
+          "fps": 10,
+          "loop": false
+        },
+        {
+          "name": "Die",
+          "row": 5,
+          "frames": 6,
+          "fps": 10,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "name": "Guardia",
+      "display": "Guardia Corrupto",
+      "file": "Guardia_sheet.png",
+      "cell": 32,
+      "pivotX": 0.5,
+      "pivotY": 0.047,
+      "anims": [
+        {
+          "name": "Idle",
+          "row": 0,
+          "frames": 4,
+          "fps": 8,
+          "loop": true
+        },
+        {
+          "name": "Walk",
+          "row": 1,
+          "frames": 6,
+          "fps": 9,
+          "loop": true
+        },
+        {
+          "name": "Shoot",
+          "row": 2,
+          "frames": 3,
+          "fps": 12,
+          "loop": false
+        },
+        {
+          "name": "Hurt",
+          "row": 3,
+          "frames": 2,
+          "fps": 10,
+          "loop": false
+        },
+        {
+          "name": "Die",
+          "row": 4,
+          "frames": 6,
+          "fps": 10,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "name": "Chatarrero",
+      "display": "Chatarrero",
+      "file": "Chatarrero_sheet.png",
+      "cell": 32,
+      "pivotX": 0.5,
+      "pivotY": 0.047,
+      "anims": [
+        {
+          "name": "Idle",
+          "row": 0,
+          "frames": 4,
+          "fps": 8,
+          "loop": true
+        },
+        {
+          "name": "Walk",
+          "row": 1,
+          "frames": 6,
+          "fps": 8,
+          "loop": true
+        },
+        {
+          "name": "Attack",
+          "row": 2,
+          "frames": 4,
+          "fps": 10,
+          "loop": false
+        },
+        {
+          "name": "Hurt",
+          "row": 3,
+          "frames": 2,
+          "fps": 10,
+          "loop": false
+        },
+        {
+          "name": "Die",
+          "row": 4,
+          "frames": 6,
+          "fps": 9,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "name": "ChatarreroAlfa",
+      "display": "Chatarrero Alfa (jefe)",
+      "file": "ChatarreroAlfa_sheet.png",
+      "cell": 64,
+      "pivotX": 0.5,
+      "pivotY": 0.047,
+      "anims": [
+        {
+          "name": "Idle",
+          "row": 0,
+          "frames": 4,
+          "fps": 8,
+          "loop": true
+        },
+        {
+          "name": "Walk",
+          "row": 1,
+          "frames": 6,
+          "fps": 8,
+          "loop": true
+        },
+        {
+          "name": "Attack",
+          "row": 2,
+          "frames": 5,
+          "fps": 10,
+          "loop": false
+        },
+        {
+          "name": "Charge",
+          "row": 3,
+          "frames": 4,
+          "fps": 14,
+          "loop": true
+        },
+        {
+          "name": "Hurt",
+          "row": 4,
+          "frames": 2,
+          "fps": 10,
+          "loop": false
+        },
+        {
+          "name": "Die",
+          "row": 5,
+          "frames": 6,
+          "fps": 9,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "name": "Vex",
+      "display": "Cmdt. Vex / Titan-V (jefe final)",
+      "file": "Vex_sheet.png",
+      "cell": 48,
+      "pivotX": 0.5,
+      "pivotY": 0.047,
+      "anims": [
+        {
+          "name": "Idle",
+          "row": 0,
+          "frames": 4,
+          "fps": 8,
+          "loop": true
+        },
+        {
+          "name": "Walk",
+          "row": 1,
+          "frames": 6,
+          "fps": 9,
+          "loop": true
+        },
+        {
+          "name": "Shoot",
+          "row": 2,
+          "frames": 4,
+          "fps": 12,
+          "loop": false
+        },
+        {
+          "name": "Slam",
+          "row": 3,
+          "frames": 5,
+          "fps": 10,
+          "loop": false
+        },
+        {
+          "name": "Hurt",
+          "row": 4,
+          "frames": 2,
+          "fps": 10,
+          "loop": false
+        },
+        {
+          "name": "Die",
+          "row": 5,
+          "frames": 6,
+          "fps": 9,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "name": "Dron",
+      "display": "Dron Centinela",
+      "file": "Dron_sheet.png",
+      "cell": 32,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "anims": [
+        {
+          "name": "Idle",
+          "row": 0,
+          "frames": 4,
+          "fps": 8,
+          "loop": true
+        },
+        {
+          "name": "Move",
+          "row": 1,
+          "frames": 4,
+          "fps": 10,
+          "loop": true
+        },
+        {
+          "name": "Shoot",
+          "row": 2,
+          "frames": 3,
+          "fps": 10,
+          "loop": false
+        },
+        {
+          "name": "Hurt",
+          "row": 3,
+          "frames": 2,
+          "fps": 10,
+          "loop": false
+        },
+        {
+          "name": "Die",
+          "row": 4,
+          "frames": 5,
+          "fps": 8,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "name": "Espora",
+      "display": "Espora Explosiva",
+      "file": "Espora_sheet.png",
+      "cell": 32,
+      "pivotX": 0.5,
+      "pivotY": 0.5,
+      "anims": [
+        {
+          "name": "Idle",
+          "row": 0,
+          "frames": 4,
+          "fps": 8,
+          "loop": true
+        },
+        {
+          "name": "Move",
+          "row": 1,
+          "frames": 4,
+          "fps": 10,
+          "loop": true
+        },
+        {
+          "name": "Explode",
+          "row": 2,
+          "frames": 6,
+          "fps": 12,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "name": "GuardianReactor",
+      "display": "Guardian del Reactor (jefe)",
+      "file": "GuardianReactor_sheet.png",
+      "cell": 64,
+      "pivotX": 0.5,
+      "pivotY": 0.047,
+      "anims": [
+        {
+          "name": "Idle",
+          "row": 0,
+          "frames": 4,
+          "fps": 6,
+          "loop": true
+        },
+        {
+          "name": "Open",
+          "row": 1,
+          "frames": 4,
+          "fps": 8,
+          "loop": false
+        },
+        {
+          "name": "Fire",
+          "row": 2,
+          "frames": 4,
+          "fps": 10,
+          "loop": false
+        },
+        {
+          "name": "Hurt",
+          "row": 3,
+          "frames": 2,
+          "fps": 10,
+          "loop": false
+        },
+        {
+          "name": "Die",
+          "row": 4,
+          "frames": 6,
+          "fps": 8,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "name": "MadreRaiz",
+      "display": "Madre Raiz (jefe)",
+      "file": "MadreRaiz_sheet.png",
+      "cell": 96,
+      "pivotX": 0.5,
+      "pivotY": 0.047,
+      "anims": [
+        {
+          "name": "Idle",
+          "row": 0,
+          "frames": 6,
+          "fps": 6,
+          "loop": true
+        },
+        {
+          "name": "Attack",
+          "row": 1,
+          "frames": 6,
+          "fps": 10,
+          "loop": false
+        },
+        {
+          "name": "Hurt",
+          "row": 2,
+          "frames": 2,
+          "fps": 10,
+          "loop": false
+        },
+        {
+          "name": "Die",
+          "row": 3,
+          "frames": 6,
+          "fps": 8,
+          "loop": false
+        }
+      ]
+    }
+  ]
+}

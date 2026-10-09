@@ -1,0 +1,832 @@
+fileFormatVersion: 2
+guid: 211d4549a2ad7314789cc97d1942b2c8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7605168807313301235
+    second: Vex_sheet_0
+  - first:
+      213: 6106205375387448495
+    second: Vex_sheet_1
+  - first:
+      213: 8462545453011595734
+    second: Vex_sheet_2
+  - first:
+      213: 2481933341067169367
+    second: Vex_sheet_3
+  - first:
+      213: 2192214590871522535
+    second: Vex_sheet_4
+  - first:
+      213: -4052488401867933328
+    second: Vex_sheet_5
+  - first:
+      213: -445740741665127987
+    second: Vex_sheet_6
+  - first:
+      213: -823148435909761725
+    second: Vex_sheet_7
+  - first:
+      213: 9207415817000511221
+    second: Vex_sheet_8
+  - first:
+      213: 6791596933229292719
+    second: Vex_sheet_9
+  - first:
+      213: 6824442313707044688
+    second: Vex_sheet_10
+  - first:
+      213: 8510280977125431523
+    second: Vex_sheet_11
+  - first:
+      213: -916669057627589899
+    second: Vex_sheet_12
+  - first:
+      213: -3156872346439430548
+    second: Vex_sheet_13
+  - first:
+      213: -7170743754943416829
+    second: Vex_sheet_14
+  - first:
+      213: -8750645920892473502
+    second: Vex_sheet_15
+  - first:
+      213: 5121809480074445430
+    second: Vex_sheet_16
+  - first:
+      213: 9022206935596225881
+    second: Vex_sheet_17
+  - first:
+      213: -8945527861016353086
+    second: Vex_sheet_18
+  - first:
+      213: -1506716536588421559
+    second: Vex_sheet_19
+  - first:
+      213: 7386297636682916228
+    second: Vex_sheet_20
+  - first:
+      213: -5319371813536470079
+    second: Vex_sheet_21
+  - first:
+      213: -4863581289124060329
+    second: Vex_sheet_22
+  - first:
+      213: 6571041550136370997
+    second: Vex_sheet_23
+  - first:
+      213: 6279765096287046986
+    second: Vex_sheet_24
+  - first:
+      213: -5544140914514689834
+    second: Vex_sheet_25
+  - first:
+      213: -8899684503581454045
+    second: Vex_sheet_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vex_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 240
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01a53f7343057690800000000000000
+      internalID: -7605168807313301235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vex_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 192
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa4bc85df699db450800000000000000
+      internalID: 6106205375387448495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vex_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 240
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d17a56c040017570800000000000000
+      internalID: 8462545453011595734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vex_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 192
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ec18e4939917220800000000000000
+      internalID: 2481933341067169367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vex_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 240
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ec43583e8f4c6e10800000000000000
+      internalID: 2192214590871522535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vex_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 240
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 079754ef44ba2c7c0800000000000000
+      internalID: -4052488401867933328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vex_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 192
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc18127382960d9f0800000000000000
+      internalID: -445740741665127987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vex_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 192
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3452e28dbd69394f0800000000000000
+      internalID: -823148435909761725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vex_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 192
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f6e0af07ef47cf70800000000000000
+      internalID: 9207415817000511221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vex_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 192
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faca3c66d69904e50800000000000000
+      internalID: 6791596933229292719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vex_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 96
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05f37aa702a45be50800000000000000
+      internalID: 6824442313707044688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vex_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 144
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e8535495779a1670800000000000000
+      internalID: 8510280977125431523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vex_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 96
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2f38b49565743f0800000000000000
+      internalID: -916669057627589899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vex_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 144
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e4935a3598034d0800000000000000
+      internalID: -3156872346439430548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vex_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 144
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3063f3f0c866c7c90800000000000000
+      internalID: -7170743754943416829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vex_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 144
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26fabf9d5e57f8680800000000000000
+      internalID: -8750645920892473502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vex_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 48
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 672c01be592541740800000000000000
+      internalID: 5121809480074445430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vex_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 96
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 955574ef761553d70800000000000000
+      internalID: 9022206935596225881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vex_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 96
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c6a2cb4ec91bd380800000000000000
+      internalID: -8945527861016353086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vex_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 96
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 946b07bfa41171be0800000000000000
+      internalID: -1506716536588421559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vex_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 48
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 481eac7f096618660800000000000000
+      internalID: 7386297636682916228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vex_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 0
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cbeee1d48bcd26b0800000000000000
+      internalID: -5319371813536470079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vex_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 0
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753268df596118cb0800000000000000
+      internalID: -4863581289124060329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vex_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 0
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 537e5389977013b50800000000000000
+      internalID: 6571041550136370997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vex_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d061d5515362750800000000000000
+      internalID: 6279765096287046986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vex_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 0
+        width: 47
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d084ad56314f03b0800000000000000
+      internalID: -5544140914514689834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vex_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 0
+        width: 46
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3219af6b818fd7480800000000000000
+      internalID: -8899684503581454045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Vex_sheet_0: -7605168807313301235
+      Vex_sheet_1: 6106205375387448495
+      Vex_sheet_10: 6824442313707044688
+      Vex_sheet_11: 8510280977125431523
+      Vex_sheet_12: -916669057627589899
+      Vex_sheet_13: -3156872346439430548
+      Vex_sheet_14: -7170743754943416829
+      Vex_sheet_15: -8750645920892473502
+      Vex_sheet_16: 5121809480074445430
+      Vex_sheet_17: 9022206935596225881
+      Vex_sheet_18: -8945527861016353086
+      Vex_sheet_19: -1506716536588421559
+      Vex_sheet_2: 8462545453011595734
+      Vex_sheet_20: 7386297636682916228
+      Vex_sheet_21: -5319371813536470079
+      Vex_sheet_22: -4863581289124060329
+      Vex_sheet_23: 6571041550136370997
+      Vex_sheet_24: 6279765096287046986
+      Vex_sheet_25: -5544140914514689834
+      Vex_sheet_26: -8899684503581454045
+      Vex_sheet_3: 2481933341067169367
+      Vex_sheet_4: 2192214590871522535
+      Vex_sheet_5: -4052488401867933328
+      Vex_sheet_6: -445740741665127987
+      Vex_sheet_7: -823148435909761725
+      Vex_sheet_8: 9207415817000511221
+      Vex_sheet_9: 6791596933229292719
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

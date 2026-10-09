@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 8d44cfff8c7f6324d851a0d11565eaa3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4465118534925646755
+    second: Chatarrero_sheet_0
+  - first:
+      213: 6047568276524511713
+    second: Chatarrero_sheet_1
+  - first:
+      213: -8674759384762618366
+    second: Chatarrero_sheet_2
+  - first:
+      213: 8764549182564629589
+    second: Chatarrero_sheet_3
+  - first:
+      213: -5080189418183465938
+    second: Chatarrero_sheet_4
+  - first:
+      213: -809655426914174013
+    second: Chatarrero_sheet_5
+  - first:
+      213: -7660554344891857842
+    second: Chatarrero_sheet_6
+  - first:
+      213: 9097361979881741942
+    second: Chatarrero_sheet_7
+  - first:
+      213: -5186977843353419342
+    second: Chatarrero_sheet_8
+  - first:
+      213: -8679382114162968792
+    second: Chatarrero_sheet_9
+  - first:
+      213: 760671082884006161
+    second: Chatarrero_sheet_10
+  - first:
+      213: -6204157536641940798
+    second: Chatarrero_sheet_11
+  - first:
+      213: -6277422727015121368
+    second: Chatarrero_sheet_12
+  - first:
+      213: 5425982398636876681
+    second: Chatarrero_sheet_13
+  - first:
+      213: 3092393825433015238
+    second: Chatarrero_sheet_14
+  - first:
+      213: -4640299933233031594
+    second: Chatarrero_sheet_15
+  - first:
+      213: 5341266964574132882
+    second: Chatarrero_sheet_16
+  - first:
+      213: 7456986083601159310
+    second: Chatarrero_sheet_17
+  - first:
+      213: 5350485909540324102
+    second: Chatarrero_sheet_18
+  - first:
+      213: 3068601328477305442
+    second: Chatarrero_sheet_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Chatarrero_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 63
+        width: 16
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab714a76a947fd30800000000000000
+      internalID: 4465118534925646755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chatarrero_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 127
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e13a2d5e474de350800000000000000
+      internalID: 6047568276524511713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chatarrero_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 63
+        width: 16
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20eec37ec401d9780800000000000000
+      internalID: -8674759384762618366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chatarrero_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 127
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c74338b0fe1a970800000000000000
+      internalID: 8764549182564629589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chatarrero_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 127
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e24e971e3aa8f79b0800000000000000
+      internalID: -5080189418183465938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chatarrero_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 127
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb3050dda683c4f0800000000000000
+      internalID: -809655426914174013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chatarrero_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 95
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e444522296e30b590800000000000000
+      internalID: -7660554344891857842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chatarrero_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 95
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67edef35582504e70800000000000000
+      internalID: 9097361979881741942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chatarrero_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 95
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b1091d12272408b0800000000000000
+      internalID: -5186977843353419342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chatarrero_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 63
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 827ff67d3f3ac8780800000000000000
+      internalID: -8679382114162968792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chatarrero_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 63
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1118636d1527e8a00800000000000000
+      internalID: 760671082884006161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chatarrero_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 95
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c205e9679766e9a0800000000000000
+      internalID: -6204157536641940798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chatarrero_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 31
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82ebc4bf94d12e8a0800000000000000
+      internalID: -6277422727015121368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chatarrero_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 0
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 983e5445e36fc4b40800000000000000
+      internalID: 5425982398636876681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chatarrero_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 31
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c3db8eccc36aea20800000000000000
+      internalID: 3092393825433015238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chatarrero_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 0
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 656506ccbc75a9fb0800000000000000
+      internalID: -4640299933233031594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chatarrero_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29a58f9410eff1a40800000000000000
+      internalID: 5341266964574132882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chatarrero_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 0
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e84141095598c7760800000000000000
+      internalID: 7456986083601159310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chatarrero_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60342ed269eb04a40800000000000000
+      internalID: 5350485909540324102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chatarrero_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26a7e2d66acd59a20800000000000000
+      internalID: 3068601328477305442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Chatarrero_sheet_0: 4465118534925646755
+      Chatarrero_sheet_1: 6047568276524511713
+      Chatarrero_sheet_10: 760671082884006161
+      Chatarrero_sheet_11: -6204157536641940798
+      Chatarrero_sheet_12: -6277422727015121368
+      Chatarrero_sheet_13: 5425982398636876681
+      Chatarrero_sheet_14: 3092393825433015238
+      Chatarrero_sheet_15: -4640299933233031594
+      Chatarrero_sheet_16: 5341266964574132882
+      Chatarrero_sheet_17: 7456986083601159310
+      Chatarrero_sheet_18: 5350485909540324102
+      Chatarrero_sheet_19: 3068601328477305442
+      Chatarrero_sheet_2: -8674759384762618366
+      Chatarrero_sheet_3: 8764549182564629589
+      Chatarrero_sheet_4: -5080189418183465938
+      Chatarrero_sheet_5: -809655426914174013
+      Chatarrero_sheet_6: -7660554344891857842
+      Chatarrero_sheet_7: 9097361979881741942
+      Chatarrero_sheet_8: -5186977843353419342
+      Chatarrero_sheet_9: -8679382114162968792
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

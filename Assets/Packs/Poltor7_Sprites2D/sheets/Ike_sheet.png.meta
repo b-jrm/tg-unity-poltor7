@@ -1,0 +1,1014 @@
+fileFormatVersion: 2
+guid: 0b6eab0371fb04f4493ed7f31fd65ebc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3944021353810435200
+    second: Ike_sheet_0
+  - first:
+      213: -4432241770254216933
+    second: Ike_sheet_1
+  - first:
+      213: -7885870861821794575
+    second: Ike_sheet_2
+  - first:
+      213: 2636116513040703582
+    second: Ike_sheet_3
+  - first:
+      213: -2188961525333768751
+    second: Ike_sheet_4
+  - first:
+      213: -8782801645023078895
+    second: Ike_sheet_5
+  - first:
+      213: -6460653979614412622
+    second: Ike_sheet_6
+  - first:
+      213: -2680583772242080702
+    second: Ike_sheet_7
+  - first:
+      213: -6427926450433103459
+    second: Ike_sheet_8
+  - first:
+      213: -1295071714451513427
+    second: Ike_sheet_9
+  - first:
+      213: -2608015346691519683
+    second: Ike_sheet_10
+  - first:
+      213: -1199210639654645254
+    second: Ike_sheet_11
+  - first:
+      213: -6270653556437560189
+    second: Ike_sheet_12
+  - first:
+      213: 8454636842090947703
+    second: Ike_sheet_13
+  - first:
+      213: -7865504611827001608
+    second: Ike_sheet_14
+  - first:
+      213: -642592990417950805
+    second: Ike_sheet_15
+  - first:
+      213: 8173911174132074711
+    second: Ike_sheet_16
+  - first:
+      213: -8162084891415916886
+    second: Ike_sheet_17
+  - first:
+      213: -467467284857420336
+    second: Ike_sheet_18
+  - first:
+      213: 7935541211393159218
+    second: Ike_sheet_19
+  - first:
+      213: 1946260784695763930
+    second: Ike_sheet_20
+  - first:
+      213: -5124570213133379435
+    second: Ike_sheet_21
+  - first:
+      213: 8145935292100451057
+    second: Ike_sheet_22
+  - first:
+      213: 8803960221911226475
+    second: Ike_sheet_23
+  - first:
+      213: -7869361817085514193
+    second: Ike_sheet_24
+  - first:
+      213: 3389553130312008376
+    second: Ike_sheet_25
+  - first:
+      213: -1873071544516577068
+    second: Ike_sheet_26
+  - first:
+      213: -8885064249614609544
+    second: Ike_sheet_27
+  - first:
+      213: -8115120680084041366
+    second: Ike_sheet_28
+  - first:
+      213: -8380024830708366424
+    second: Ike_sheet_29
+  - first:
+      213: 5881412062320664681
+    second: Ike_sheet_30
+  - first:
+      213: -758826870941107020
+    second: Ike_sheet_31
+  - first:
+      213: 1460994069574353683
+    second: Ike_sheet_32
+  - first:
+      213: 2758957797504511041
+    second: Ike_sheet_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ike_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 224
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c1d64668afbb630800000000000000
+      internalID: 3944021353810435200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ike_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 224
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b11595dc7938d72c0800000000000000
+      internalID: -4432241770254216933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ike_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 224
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f622887b32cf8290800000000000000
+      internalID: -7885870861821794575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ike_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 224
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e50255a700e559420800000000000000
+      internalID: 2636116513040703582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ike_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 192
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d5cb7f171f3f91e0800000000000000
+      internalID: -2188961525333768751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ike_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 192
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 116dea7ef683d1680800000000000000
+      internalID: -8782801645023078895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ike_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 192
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b08e508f652756a0800000000000000
+      internalID: -6460653979614412622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ike_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 192
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24c85d0f247accad0800000000000000
+      internalID: -2680583772242080702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ike_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 192
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d99e89f23fa6bc6a0800000000000000
+      internalID: -6427926450433103459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ike_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 192
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf1675232bf60ee0800000000000000
+      internalID: -1295071714451513427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ike_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 160
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3b4fab2cd77ecbd0800000000000000
+      internalID: -2608015346691519683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ike_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 130
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af11484e64c8b5fe0800000000000000
+      internalID: -1199210639654645254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ike_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 160
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 384dff250d92af8a0800000000000000
+      internalID: -6270653556437560189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ike_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 131
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 774e2cdc967e45570800000000000000
+      internalID: 8454636842090947703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ike_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 160
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f6dad09a3d18d290800000000000000
+      internalID: -7865504611827001608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ike_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 130
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba76bfe641d0517f0800000000000000
+      internalID: -642592990417950805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ike_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 160
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d80db7d7e09f6170800000000000000
+      internalID: 8173911174132074711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ike_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 160
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae429c29037abe80800000000000000
+      internalID: -8162084891415916886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ike_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 160
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d505fd2bf83389f0800000000000000
+      internalID: -467467284857420336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ike_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 64
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 230ff8dffa4b02e60800000000000000
+      internalID: 7935541211393159218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ike_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 96
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad360183fd1820b10800000000000000
+      internalID: 1946260784695763930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ike_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 64
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59813a3da8ed1e8b0800000000000000
+      internalID: -5124570213133379435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ike_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 96
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa17f83dfc2c0170800000000000000
+      internalID: 8145935292100451057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ike_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 96
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6810bb2d23fd2a70800000000000000
+      internalID: 8803960221911226475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ike_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 32
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e689bfe196ac290800000000000000
+      internalID: -7869361817085514193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ike_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 64
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b28f870d9c1a0f20800000000000000
+      internalID: 3389553130312008376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ike_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 64
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8723eaa538106e0800000000000000
+      internalID: -1873071544516577068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ike_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 32
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 873d23bd329e1b480800000000000000
+      internalID: -8885064249614609544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ike_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a611a2abcbc416f80800000000000000
+      internalID: -8115120680084041366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ike_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a3cca4d0db24bb80800000000000000
+      internalID: -8380024830708366424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ike_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96022501c19fe9150800000000000000
+      internalID: 5881412062320664681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ike_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bcb8873bfa1875f0800000000000000
+      internalID: -758826870941107020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ike_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 0
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3138ee79d5e764410800000000000000
+      internalID: 1460994069574353683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ike_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 31
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14cec8ecf79c94620800000000000000
+      internalID: 2758957797504511041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Ike_sheet_0: 3944021353810435200
+      Ike_sheet_1: -4432241770254216933
+      Ike_sheet_10: -2608015346691519683
+      Ike_sheet_11: -1199210639654645254
+      Ike_sheet_12: -6270653556437560189
+      Ike_sheet_13: 8454636842090947703
+      Ike_sheet_14: -7865504611827001608
+      Ike_sheet_15: -642592990417950805
+      Ike_sheet_16: 8173911174132074711
+      Ike_sheet_17: -8162084891415916886
+      Ike_sheet_18: -467467284857420336
+      Ike_sheet_19: 7935541211393159218
+      Ike_sheet_2: -7885870861821794575
+      Ike_sheet_20: 1946260784695763930
+      Ike_sheet_21: -5124570213133379435
+      Ike_sheet_22: 8145935292100451057
+      Ike_sheet_23: 8803960221911226475
+      Ike_sheet_24: -7869361817085514193
+      Ike_sheet_25: 3389553130312008376
+      Ike_sheet_26: -1873071544516577068
+      Ike_sheet_27: -8885064249614609544
+      Ike_sheet_28: -8115120680084041366
+      Ike_sheet_29: -8380024830708366424
+      Ike_sheet_3: 2636116513040703582
+      Ike_sheet_30: 5881412062320664681
+      Ike_sheet_31: -758826870941107020
+      Ike_sheet_32: 1460994069574353683
+      Ike_sheet_33: 2758957797504511041
+      Ike_sheet_4: -2188961525333768751
+      Ike_sheet_5: -8782801645023078895
+      Ike_sheet_6: -6460653979614412622
+      Ike_sheet_7: -2680583772242080702
+      Ike_sheet_8: -6427926450433103459
+      Ike_sheet_9: -1295071714451513427
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,858 @@
+fileFormatVersion: 2
+guid: 9e403d4c208553448a61880f81edb03c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5039474180911327243
+    second: ChatarreroAlfa_sheet_0
+  - first:
+      213: -8511773338726019197
+    second: ChatarreroAlfa_sheet_1
+  - first:
+      213: -6753707588509050274
+    second: ChatarreroAlfa_sheet_2
+  - first:
+      213: -9052494324062998222
+    second: ChatarreroAlfa_sheet_3
+  - first:
+      213: 4662081377087845483
+    second: ChatarreroAlfa_sheet_4
+  - first:
+      213: 4350491457316084732
+    second: ChatarreroAlfa_sheet_5
+  - first:
+      213: -5138497166165573807
+    second: ChatarreroAlfa_sheet_6
+  - first:
+      213: 5465405063539100439
+    second: ChatarreroAlfa_sheet_7
+  - first:
+      213: 4301400305577530804
+    second: ChatarreroAlfa_sheet_8
+  - first:
+      213: 4007383071373534903
+    second: ChatarreroAlfa_sheet_9
+  - first:
+      213: 2103498032631857130
+    second: ChatarreroAlfa_sheet_10
+  - first:
+      213: 1591045642237466076
+    second: ChatarreroAlfa_sheet_11
+  - first:
+      213: -5742328709899014545
+    second: ChatarreroAlfa_sheet_12
+  - first:
+      213: 4884911122856315339
+    second: ChatarreroAlfa_sheet_13
+  - first:
+      213: 2977579222309705198
+    second: ChatarreroAlfa_sheet_14
+  - first:
+      213: -1478302262940454733
+    second: ChatarreroAlfa_sheet_15
+  - first:
+      213: 2764430588378552265
+    second: ChatarreroAlfa_sheet_16
+  - first:
+      213: 1877465959818530897
+    second: ChatarreroAlfa_sheet_17
+  - first:
+      213: -2698701198844892271
+    second: ChatarreroAlfa_sheet_18
+  - first:
+      213: 3293475930851164941
+    second: ChatarreroAlfa_sheet_19
+  - first:
+      213: 1671220133859187087
+    second: ChatarreroAlfa_sheet_20
+  - first:
+      213: -5295131564269222935
+    second: ChatarreroAlfa_sheet_21
+  - first:
+      213: 5099471291969182965
+    second: ChatarreroAlfa_sheet_22
+  - first:
+      213: 5747778398224401809
+    second: ChatarreroAlfa_sheet_23
+  - first:
+      213: -2483015583776104486
+    second: ChatarreroAlfa_sheet_24
+  - first:
+      213: -9107588297169526839
+    second: ChatarreroAlfa_sheet_25
+  - first:
+      213: -648488063887693479
+    second: ChatarreroAlfa_sheet_26
+  - first:
+      213: 4492426557978093531
+    second: ChatarreroAlfa_sheet_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ChatarreroAlfa_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 320
+        width: 27
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b08e8f7311fcfe540800000000000000
+      internalID: 5039474180911327243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatarreroAlfa_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 320
+        width: 28
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38f4898ee3b10e980800000000000000
+      internalID: -8511773338726019197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatarreroAlfa_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 320
+        width: 27
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ade0e1bb20642a0800000000000000
+      internalID: -6753707588509050274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatarreroAlfa_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 320
+        width: 27
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2313cfadf541f5280800000000000000
+      internalID: -9052494324062998222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatarreroAlfa_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 192
+        width: 30
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b64f84bcf4a03b040800000000000000
+      internalID: 4662081377087845483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatarreroAlfa_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 256
+        width: 27
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb52b73eec006c30800000000000000
+      internalID: 4350491457316084732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatarreroAlfa_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 256
+        width: 28
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15f79536d0460b8b0800000000000000
+      internalID: -5138497166165573807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatarreroAlfa_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 192
+        width: 31
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71b8ed5c2f409db40800000000000000
+      internalID: 5465405063539100439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatarreroAlfa_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 256
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b594b2c9c4a1bb30800000000000000
+      internalID: 4301400305577530804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatarreroAlfa_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 256
+        width: 28
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b62220eba51d9730800000000000000
+      internalID: 4007383071373534903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatarreroAlfa_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 256
+        width: 30
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef31ccd050213d10800000000000000
+      internalID: 2103498032631857130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatarreroAlfa_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 256
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd55ff6f497841610800000000000000
+      internalID: 1591045642237466076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatarreroAlfa_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 192
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e21f666762f40b0800000000000000
+      internalID: -5742328709899014545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatarreroAlfa_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 192
+        width: 36
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc9843de8c0bac340800000000000000
+      internalID: 4884911122856315339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatarreroAlfa_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 192
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee59a5cd68c725920800000000000000
+      internalID: 2977579222309705198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatarreroAlfa_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 128
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b037ca9ce30c7be0800000000000000
+      internalID: -1478302262940454733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatarreroAlfa_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 128
+        width: 51
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c7178a39fa3d5620800000000000000
+      internalID: 2764430588378552265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatarreroAlfa_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 128
+        width: 46
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1501fdcd7591e0a10800000000000000
+      internalID: 1877465959818530897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatarreroAlfa_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 128
+        width: 47
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19bede7de894c8ad0800000000000000
+      internalID: -2698701198844892271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatarreroAlfa_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 64
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d03cea6d8e6c4bd20800000000000000
+      internalID: 3293475930851164941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatarreroAlfa_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8958247bdd513710800000000000000
+      internalID: 1671220133859187087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatarreroAlfa_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 0
+        width: 27
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e346c8a5e9e386b0800000000000000
+      internalID: -5295131564269222935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatarreroAlfa_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 27
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc10243f16f4c640800000000000000
+      internalID: 5099471291969182965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatarreroAlfa_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 39
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19544d9000634cf40800000000000000
+      internalID: 5747778398224401809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatarreroAlfa_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1
+        width: 46
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf144d6b7e8a8dd0800000000000000
+      internalID: -2483015583776104486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatarreroAlfa_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 54
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf94b2a2b85b9180800000000000000
+      internalID: -9107588297169526839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatarreroAlfa_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 959a4eeaa8b1007f0800000000000000
+      internalID: -648488063887693479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatarreroAlfa_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 0
+        width: 61
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd7a0df072e485e30800000000000000
+      internalID: 4492426557978093531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ChatarreroAlfa_sheet_0: 5039474180911327243
+      ChatarreroAlfa_sheet_1: -8511773338726019197
+      ChatarreroAlfa_sheet_10: 2103498032631857130
+      ChatarreroAlfa_sheet_11: 1591045642237466076
+      ChatarreroAlfa_sheet_12: -5742328709899014545
+      ChatarreroAlfa_sheet_13: 4884911122856315339
+      ChatarreroAlfa_sheet_14: 2977579222309705198
+      ChatarreroAlfa_sheet_15: -1478302262940454733
+      ChatarreroAlfa_sheet_16: 2764430588378552265
+      ChatarreroAlfa_sheet_17: 1877465959818530897
+      ChatarreroAlfa_sheet_18: -2698701198844892271
+      ChatarreroAlfa_sheet_19: 3293475930851164941
+      ChatarreroAlfa_sheet_2: -6753707588509050274
+      ChatarreroAlfa_sheet_20: 1671220133859187087
+      ChatarreroAlfa_sheet_21: -5295131564269222935
+      ChatarreroAlfa_sheet_22: 5099471291969182965
+      ChatarreroAlfa_sheet_23: 5747778398224401809
+      ChatarreroAlfa_sheet_24: -2483015583776104486
+      ChatarreroAlfa_sheet_25: -9107588297169526839
+      ChatarreroAlfa_sheet_26: -648488063887693479
+      ChatarreroAlfa_sheet_27: 4492426557978093531
+      ChatarreroAlfa_sheet_3: -9052494324062998222
+      ChatarreroAlfa_sheet_4: 4662081377087845483
+      ChatarreroAlfa_sheet_5: 4350491457316084732
+      ChatarreroAlfa_sheet_6: -5138497166165573807
+      ChatarreroAlfa_sheet_7: 5465405063539100439
+      ChatarreroAlfa_sheet_8: 4301400305577530804
+      ChatarreroAlfa_sheet_9: 4007383071373534903
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

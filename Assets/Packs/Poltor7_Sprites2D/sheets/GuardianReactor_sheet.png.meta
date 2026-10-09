@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 05bc8fd3df2b83244a09b2db4a126d28
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1834038474412074302
+    second: GuardianReactor_sheet_0
+  - first:
+      213: -4732185586101934781
+    second: GuardianReactor_sheet_1
+  - first:
+      213: -2566902047011025069
+    second: GuardianReactor_sheet_2
+  - first:
+      213: 6281328028912751499
+    second: GuardianReactor_sheet_3
+  - first:
+      213: 8506844827080705039
+    second: GuardianReactor_sheet_4
+  - first:
+      213: -767015303092046207
+    second: GuardianReactor_sheet_5
+  - first:
+      213: -6905044874155734199
+    second: GuardianReactor_sheet_6
+  - first:
+      213: -6582302162302712479
+    second: GuardianReactor_sheet_7
+  - first:
+      213: -6016724098751040580
+    second: GuardianReactor_sheet_8
+  - first:
+      213: -1581376959569413070
+    second: GuardianReactor_sheet_9
+  - first:
+      213: 33258910040227554
+    second: GuardianReactor_sheet_10
+  - first:
+      213: -638472849016584902
+    second: GuardianReactor_sheet_11
+  - first:
+      213: -1858224853093164242
+    second: GuardianReactor_sheet_12
+  - first:
+      213: 291081837156503626
+    second: GuardianReactor_sheet_13
+  - first:
+      213: -4262664956319300141
+    second: GuardianReactor_sheet_14
+  - first:
+      213: -5596096287585545136
+    second: GuardianReactor_sheet_15
+  - first:
+      213: -5063491294265092018
+    second: GuardianReactor_sheet_16
+  - first:
+      213: 4565478901565441657
+    second: GuardianReactor_sheet_17
+  - first:
+      213: -1265303463405679480
+    second: GuardianReactor_sheet_18
+  - first:
+      213: -4803629749350251809
+    second: GuardianReactor_sheet_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GuardianReactor_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 257
+        width: 47
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cad44489bf2c86e0800000000000000
+      internalID: -1834038474412074302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardianReactor_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 257
+        width: 47
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 345ab291846e35eb0800000000000000
+      internalID: -4732185586101934781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardianReactor_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 257
+        width: 47
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f4fa23038806cd0800000000000000
+      internalID: -2566902047011025069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardianReactor_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 257
+        width: 47
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b839c09ff82cb2750800000000000000
+      internalID: 6281328028912751499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardianReactor_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 193
+        width: 47
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f04c38d8c426e0670800000000000000
+      internalID: 8506844827080705039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardianReactor_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 193
+        width: 47
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186f8e945a30b55f0800000000000000
+      internalID: -767015303092046207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardianReactor_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 193
+        width: 47
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94bc0dd754a5c20a0800000000000000
+      internalID: -6905044874155734199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardianReactor_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 193
+        width: 47
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16549a3de07f6a4a0800000000000000
+      internalID: -6582302162302712479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardianReactor_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 129
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb379666f4d408ca0800000000000000
+      internalID: -6016724098751040580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardianReactor_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 129
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23cb0e4a802dd0ae0800000000000000
+      internalID: -1581376959569413070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardianReactor_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 129
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee709e6dc8267000800000000000000
+      internalID: 33258910040227554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardianReactor_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 129
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3582ab9350b327f0800000000000000
+      internalID: -638472849016584902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardianReactor_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 65
+        width: 47
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2b549667524636e0800000000000000
+      internalID: -1858224853093164242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardianReactor_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 65
+        width: 47
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a40184083612a0400800000000000000
+      internalID: 291081837156503626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardianReactor_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1
+        width: 47
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d5051a8ec8f7d4c0800000000000000
+      internalID: -4262664956319300141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardianReactor_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1
+        width: 47
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054d499631ca652b0800000000000000
+      internalID: -5596096287585545136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardianReactor_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 0
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e48db02de7ddab9b0800000000000000
+      internalID: -5063491294265092018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardianReactor_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 0
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 976495d3fd6db5f30800000000000000
+      internalID: 4565478901565441657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardianReactor_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 0
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c02a2343db07ee0800000000000000
+      internalID: -1265303463405679480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GuardianReactor_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 0
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2ca759134165db0800000000000000
+      internalID: -4803629749350251809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GuardianReactor_sheet_0: -1834038474412074302
+      GuardianReactor_sheet_1: -4732185586101934781
+      GuardianReactor_sheet_10: 33258910040227554
+      GuardianReactor_sheet_11: -638472849016584902
+      GuardianReactor_sheet_12: -1858224853093164242
+      GuardianReactor_sheet_13: 291081837156503626
+      GuardianReactor_sheet_14: -4262664956319300141
+      GuardianReactor_sheet_15: -5596096287585545136
+      GuardianReactor_sheet_16: -5063491294265092018
+      GuardianReactor_sheet_17: 4565478901565441657
+      GuardianReactor_sheet_18: -1265303463405679480
+      GuardianReactor_sheet_19: -4803629749350251809
+      GuardianReactor_sheet_2: -2566902047011025069
+      GuardianReactor_sheet_3: 6281328028912751499
+      GuardianReactor_sheet_4: 8506844827080705039
+      GuardianReactor_sheet_5: -767015303092046207
+      GuardianReactor_sheet_6: -6905044874155734199
+      GuardianReactor_sheet_7: -6582302162302712479
+      GuardianReactor_sheet_8: -6016724098751040580
+      GuardianReactor_sheet_9: -1581376959569413070
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
