@@ -6,3 +6,10 @@ TextScriptImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 107098
+  packageName: 2D Game Kit
+  packageVersion: 5.0
+  assetPath: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  uploadId: 885608

@@ -1,0 +1,10 @@
+POLTOR7 - EL FONDO - Atlas de recursos visuales
+
+Contenido: hojas recortadas por categoría a partir del atlas generado.
+Categorías: Suelos, Paredes, Plataformas, Escaleras, Ascensor, Puertas, Ventanas, Tuberías/Conductos, Consolas, Cajas, Decoración, Luces, Objetos y Detalles.
+
+IMPORTANTE:
+- Estos archivos son hojas de referencia recortadas por categoría, NO sprites individuales transparentes ni Tile assets de Unity ya creados. El patrón cuadriculado de fondo forma parte de la imagen.
+- Para usar piezas como Tilemap, importa cada PNG en Unity como Sprite (2D and UI), abre Sprite Editor y usa Slice solo si las piezas están alineadas uniformemente. Como las piezas tienen tamaños variados, puede ser necesario recortarlas manualmente con Sprite Editor.
+- No asumas que cada pieza mide exactamente 32x32 píxeles; el texto del atlas es orientativo y la ilustración generada no garantiza una cuadrícula real de 32x32.
+- Usa el PNG panorámico original como referencia visual; crea colliders solo para suelos/plataformas/paredes sólidos. Puertas, consolas y decoración normalmente no requieren colisión sólida.

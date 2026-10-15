@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fa8d31f17c9755446b9e161222bc3667
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 107098
+  packageName: 2D Game Kit
+  packageVersion: 5.0
+  assetPath: Assets/2DGamekit/Scenes/UI/LoadingSettings.lighting
+  uploadId: 885608

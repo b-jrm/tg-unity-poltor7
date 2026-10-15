@@ -429,3 +429,10 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 107098
+  packageName: 2D Game Kit
+  packageVersion: 5.0
+  assetPath: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  uploadId: 885608
