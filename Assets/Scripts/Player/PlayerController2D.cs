@@ -1,12 +1,11 @@
-// POLTOR7 - Control 2D de Ike con animaciones.
-// Guardar en: Assets/Scripts/Player2D.cs  (el nombre del archivo debe ser Player2D.cs)
+// Guardar en: Assets/Scripts/Player/PlayerController2D.cs  (el nombre del archivo debe ser PlayerController2D.cs)
 // Requiere en el mismo objeto: Rigidbody2D, CapsuleCollider2D, Animator, SpriteRenderer
 // Usa el Input System nuevo (Keyboard.current), igual que el resto del proyecto.
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(Rigidbody2D), typeof(Animator), typeof(SpriteRenderer))]
-public class Player2D : MonoBehaviour
+public class PlayerController2D : MonoBehaviour
 {
     [Header("Movimiento")]
     public float walkSpeed = 3f;
@@ -82,7 +81,7 @@ public class Player2D : MonoBehaviour
         Vector2 c = (Vector2)transform.position + Vector2.up * 0.5f + dir * (meleeRange * 0.5f);
         foreach (var col in Physics2D.OverlapCircleAll(c, meleeRange * 0.6f, enemyLayer))
         {
-            var e = col.GetComponentInParent<Enemy2D>();
+            var e = col.GetComponentInParent<EnemyController2D>();
             if (e != null) e.TakeDamage(meleeDamage);
         }
     }
@@ -94,7 +93,7 @@ public class Player2D : MonoBehaviour
         RaycastHit2D hit = Physics2D.Raycast(o, dir, shootRange, enemyLayer);
         if (hit.collider != null)
         {
-            var e = hit.collider.GetComponentInParent<Enemy2D>();
+            var e = hit.collider.GetComponentInParent<EnemyController2D>();
             if (e != null) e.TakeDamage(shootDamage);
         }
     }

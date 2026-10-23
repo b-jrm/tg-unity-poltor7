@@ -1,5 +1,4 @@
-// POLTOR7 - IA 2D simple para enemigos con animaciones.
-// Guardar en: Assets/Scripts/Enemy2D.cs
+// Guardar en: Assets/Scripts/Enemies/EnemyController2D.cs
 // Requiere: Rigidbody2D, Collider2D (CapsuleCollider2D), Animator, SpriteRenderer
 // Sirve para Raizal, Chatarrero, Guardia, Chatarrero Alfa, Vex, Dron y Espora
 // (cambie "Move Param" a "Move" en Dron y Espora; en el Dron marque "Flying").
@@ -7,7 +6,7 @@ using System.Collections;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D), typeof(Animator), typeof(SpriteRenderer))]
-public class Enemy2D : MonoBehaviour
+public class EnemyController2D : MonoBehaviour
 {
     [Header("Vida y daño")]
     public float health = 50f;
@@ -115,7 +114,7 @@ public class Enemy2D : MonoBehaviour
         if (dead || player == null) yield break;
         if (Vector2.Distance(transform.position, player.position) <= attackRange + 0.4f)
         {
-            var p = player.GetComponent<Player2D>();
+            var p = player.GetComponent<PlayerController2D>();
             if (p != null) p.TakeDamage(damage);
         }
         if (explodeOnAttack)
