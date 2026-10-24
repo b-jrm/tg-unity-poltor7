@@ -5,8 +5,8 @@ public class Door : MonoBehaviour, IInteractable
 {
     public bool locked;
     public string requiredKeyId; // vacio = no usa tarjeta (lo abre un puzle)
-    public Vector3 openOffset = new Vector3(0f, 3f, 0f);
-    public float speed = 3f;
+    public Vector3 openOffset = new Vector3(0f, 6f, 0f);
+    public float speed = 8f;
     public UnityEvent onOpened;
     Vector3 closedPos, openPos;
     bool isOpen;
@@ -21,6 +21,7 @@ public class Door : MonoBehaviour, IInteractable
     }
     public void Interact(PlayerInventory inv)
     {
+        Debug.Log("Ike interactuó con la puerta");
         if (locked)
         {
             if (!string.IsNullOrEmpty(requiredKeyId) && inv.Has(requiredKeyId))
