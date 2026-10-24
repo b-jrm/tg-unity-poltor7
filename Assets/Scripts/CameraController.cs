@@ -3,13 +3,22 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
     public Transform aim;
-    public float velocity = 0.025f;
-    public Vector3 displacement;
+    public float smoothSpeed = 5f;
+
+    [Header("Camera Offset")]
+    public Vector3 displacement = new Vector3(0f, 1.5f, -10f);
 
     private void LateUpdate()
     {
-        Vector3 position = aim.position + displacement;
-        Vector3 positionSlow = Vector3.Lerp(transform.position, position, velocity);
-        transform.position = positionSlow;
+        if (aim == null) return;
+
+        Vector3 targetPosition = aim.position + displacement;
+
+        // Seguimiento suave independiente de la tasa de fotogramas
+        transform.position = Vector3.Lerp(
+            transform.position,
+            targetPosition,
+            smoothSpeed * Time.deltaTime
+        );
     }
 }
