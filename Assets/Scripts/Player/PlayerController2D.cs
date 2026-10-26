@@ -27,9 +27,12 @@ public class PlayerController2D : MonoBehaviour
     Rigidbody2D rb;
     Animator anim;
     SpriteRenderer sr;
-    bool grounded;
+    public bool grounded;
     bool dead;
     float lockUntil;                          // bloquea moverse mientras ataca
+
+    [HideInInspector]
+    public bool usingLadder = false;
 
     void Awake()
     {
@@ -45,7 +48,7 @@ public class PlayerController2D : MonoBehaviour
         var kb = Keyboard.current;
         if (kb == null) return;
 
-        grounded = Physics2D.OverlapCircle((Vector2)transform.position + groundCheckOffset, groundCheckRadius, groundLayer);
+        grounded = Physics2D.OverlapCircle((Vector2) transform.position + groundCheckOffset, groundCheckRadius, groundLayer);
 
         float h = 0f;
         if (kb.aKey.isPressed || kb.leftArrowKey.isPressed) h -= 1f;
@@ -64,6 +67,12 @@ public class PlayerController2D : MonoBehaviour
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             anim.ResetTrigger("Jump");
             Trigger("Jump");
+
+        }
+
+        if (!usingLadder)
+        {
+            anim.SetFloat("vSpeed", rb.linearVelocity.y);
         }
 
         // Disparar (J) y golpear con la llave inglesa (K)
