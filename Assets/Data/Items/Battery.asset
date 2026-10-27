@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5413ea4c560bf848a15c98a69bf4935, type: 3}
+  m_Name: Battery
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  id: battery
+  displayName: "Bater\xEDa"
+  description: "+50 de bater\xEDa de\r\nlinterna. N2 y N3"
+  type: 5
+  icon: {fileID: -3017979480325208809, guid: e3a0f73bf7b695947a250920a2a6000f, type: 3}
+  maxStack: 50

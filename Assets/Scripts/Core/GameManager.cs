@@ -68,7 +68,8 @@ public class GameManager : MonoBehaviour
     }
     public void Restore(GameObject player)
     {
-        player.GetComponent<Health>().SetCurrent(Mathf.Max(data.health, 40f));
+        player.GetComponent<Health>().SetCurrent(Mathf.Max(data.health, 40f)); // Si se quiere restaurar a minimo 40 de health, asi yaha tenido menos en la partida guardada
+        // player.GetComponent<Health>().SetCurrent(data.health); // Si se quiere recuperar la misma Heealt de la partida guardada.
         player.GetComponent<PlayerStats>().nutrition = data.nutrition;
         player.GetComponent<PlayerInventory>().Import(data.items);
         if (data.hasCheckpoint && data.checkpointScene ==

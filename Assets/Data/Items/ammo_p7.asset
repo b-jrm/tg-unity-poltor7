@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5413ea4c560bf848a15c98a69bf4935, type: 3}
+  m_Name: ammo_p7
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  id: ammo_p7
+  displayName: "Munici\xF3n P-7 "
+  description: 12 cargas por paquete. Se encuentran en enemigos y cajas.
+  type: 4
+  icon: {fileID: 4234616176259541354, guid: f6fb3e0076e058b4bb826f35194de932, type: 3}
+  maxStack: 12
