@@ -70,10 +70,10 @@ public class PlayerController2D : MonoBehaviour
 
         }
 
-        if (!usingLadder)
-        {
-            anim.SetFloat("vSpeed", rb.linearVelocity.y);
-        }
+        //if (!usingLadder)
+        //{
+        //    anim.SetFloat("vSpeed", rb.linearVelocity.y);
+        //}
 
         // Disparar (J) y golpear con la llave inglesa (K)
         if (kb.jKey.wasPressedThisFrame && !busy) { Trigger("Shoot"); lockUntil = Time.time + 0.3f; Shoot(); }
@@ -90,7 +90,7 @@ public class PlayerController2D : MonoBehaviour
         Vector2 c = (Vector2)transform.position + Vector2.up * 0.5f + dir * (meleeRange * 0.5f);
         foreach (var col in Physics2D.OverlapCircleAll(c, meleeRange * 0.6f, enemyLayer))
         {
-            var e = col.GetComponentInParent<EnemyController2D>();
+            var e = col.GetComponentInParent<EnemyAI>();
             if (e != null) e.TakeDamage(meleeDamage);
         }
     }
@@ -102,7 +102,7 @@ public class PlayerController2D : MonoBehaviour
         RaycastHit2D hit = Physics2D.Raycast(o, dir, shootRange, enemyLayer);
         if (hit.collider != null)
         {
-            var e = hit.collider.GetComponentInParent<EnemyController2D>();
+            var e = hit.collider.GetComponentInParent<EnemyAI>();
             if (e != null) e.TakeDamage(shootDamage);
         }
     }

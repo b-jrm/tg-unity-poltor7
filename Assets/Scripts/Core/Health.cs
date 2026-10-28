@@ -10,11 +10,13 @@ public class Health : MonoBehaviour
     void Awake() { Current = maxHealth; }
     public void SetCurrent(float value)
     {
+        Debug.Log("SetCurrent(float value [" + value + "])");
         Current = Mathf.Clamp(value, 0f, maxHealth);
         OnChanged?.Invoke(Current, maxHealth);
     }
     public void TakeDamage(float amount)
     {
+        Debug.Log("TakeDamage(float amount ["+ amount + "])");
         if (IsDead || amount <= 0f) return;
         Current = Mathf.Max(0f, Current - amount);
         OnChanged?.Invoke(Current, maxHealth);
@@ -22,6 +24,7 @@ public class Health : MonoBehaviour
     }
     public void Heal(float amount)
     {
+        Debug.Log("Heal(float amount [" + amount + "])");
         if (IsDead) return;
         Current = Mathf.Min(maxHealth, Current + amount);
         OnChanged?.Invoke(Current, maxHealth);

@@ -1,163 +1,538 @@
-using Gamekit2D;
+
 using UnityEngine;
+using Gamekit2D;
+
 [RequireComponent(typeof(Rigidbody2D), typeof(Health))]
 public class EnemyAI : MonoBehaviour
 {
-    enum State { Patrol, Chase, Attack, Dead }
+    private enum State { Patrol, Chase, Attack, Dead }
+
     [Header("Movimiento")]
-    public float patrolSpeed = 1.5f, chaseSpeed = 3f;
-    public bool flying; // Dron y Espora: Gravity Scale 0
-    public Transform groundSensor, wallSensor; // hijos delante del enemigo
+    public float patrolSpeed = 1.5f;
+    public float chaseSpeed = 3f;
+    public bool flying;
+
+    [Tooltip("Sensor situado cerca de los pies del enemigo.")]
+    public Transform groundSensor;
+
+    [Tooltip("Sensor situado delante del enemigo.")]
+    public Transform wallSensor;
+
     public LayerMask groundMask;
     [HideInInspector] public float speedMultiplier = 1f;
 
-    [Header("Percepcion")]
-    public float sightRange = 10f, hearRange = 3f, loseSightTime = 4f;
-    public LayerMask sightMask; // Ground + Player
+    [Header("Percepción")]
+    public float sightRange = 10f;
+    public float hearRange = 3f;
+    public float loseSightTime = 4f;
+    public LayerMask sightMask;
 
     [Header("Combate")]
-    public float attackRange = 1.2f; // Dron / Guardia: 8 a 10
-    public float damage = 10f, attackCooldown = 1.2f;
-    [Range(0f, 1f)] public float accuracy = 1f; // a distancia = 0.6
+    public float attackRange = 1.2f;
+    public float damage = 10f;
+    public float attackCooldown = 1.2f;
 
-    [Header("Patrulla, botin y animacion")]
+    [Range(0f, 1f)]
+    public float accuracy = 1f;
+
+    [Tooltip("Nombre del Trigger de ataque en el Animator.")]
+    public string attackTrigger = "Attack";
+
+    [Tooltip("Nombre del Trigger de daño recibido.")]
+    public string hurtTrigger = "Hurt";
+
+    [Tooltip("Nombre del Trigger de muerte.")]
+    public string dieTrigger = "Die";
+
+    [Tooltip("Tiempo entre la animación y la aplicación del daño.")]
+    public float attackDamageDelay = 0.25f;
+
+    [Header("Patrulla")]
     public Transform[] waypoints;
     public float waitAtWaypoint = 1.5f;
-    public GameObject[] lootPrefabs;
-    [Range(0f, 1f)] public float lootChance = 0.4f;
-    public Animator animator;
-    Rigidbody2D rb; Health health; Transform player;
-    State state = State.Patrol;
-    int wp, dir = 1;
-    float wait, lastSeen, nextAttack;
 
-    void Awake()
+    [Header("Botín")]
+    public GameObject[] lootPrefabs;
+
+    [Range(0f, 1f)]
+    public float lootChance = 0.4f;
+
+    [Header("Animación")]
+    public Animator animator;
+    public SpriteRenderer spriteRenderer;
+
+    [Tooltip("Parámetro Float opcional para la velocidad.")]
+    public string speedParameter = "Speed";
+
+    [Tooltip("Parámetro Bool opcional para caminar.")]
+    public string walkParameter = "Walk";
+
+    private Rigidbody2D rb;
+    private Health health;
+    private Transform player;
+
+    private State state = State.Patrol;
+
+    private int wp;
+    private int dir = 1;
+
+    private float wait;
+    private float lastSeen;
+    private float nextAttack;
+
+    private bool attackPending;
+    private bool initialized;
+
+    private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         health = GetComponent<Health>();
+
+        if (animator == null)
+            animator = GetComponentInChildren<Animator>();
+
+        if (spriteRenderer == null)
+            spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+
+        rb.freezeRotation = true;
+
         health.onDeath.AddListener(Die);
-        health.OnChanged += (cur, max) =>
+
+        health.OnChanged += OnHealthChanged;
+
+        initialized = true;
+    }
+
+    private void Start()
+    {
+        GameObject p = GameObject.FindGameObjectWithTag("Player");
+
+        if (p != null)
+            player = p.transform;
+
+        if (waypoints != null && waypoints.Length > 0)
+            wp = Mathf.Clamp(wp, 0, waypoints.Length - 1);
+    }
+
+    private void OnDestroy()
+    {
+        if (health != null)
         {
-            if (state == State.Patrol)
-            {
-                state = State.Chase; lastSeen =
-        Time.time;
-            }
-        };
+            health.onDeath.RemoveListener(Die);
+            health.OnChanged -= OnHealthChanged;
+        }
     }
-    void Start()
+
+    private void OnHealthChanged(float current, float max)
     {
-        var p = GameObject.FindGameObjectWithTag("Player");
-        if (p != null) player = p.transform;
+        if (!initialized || state == State.Dead)
+            return;
+
+        if (state == State.Patrol)
+        {
+            state = State.Chase;
+            lastSeen = Time.time;
+        }
     }
-    void Update()
+
+    private void Update()
     {
-        if (state == State.Dead || player == null) return;
-        float dist = Vector2.Distance(transform.position, player.position);
+        if (state == State.Dead)
+            return;
+
+        if (player == null)
+        {
+            Stop();
+            UpdateAnimations();
+            return;
+        }
+
+        float dist = Vector2.Distance(
+            transform.position,
+            player.position
+        );
+
         bool sees = CanSee(dist);
-        if (sees) lastSeen = Time.time;
+
+        if (sees)
+            lastSeen = Time.time;
+
         switch (state)
         {
             case State.Patrol:
-                if (sees) state = State.Chase; else Patrol();
+                if (sees)
+                {
+                    state = State.Chase;
+                }
+                else
+                {
+                    Patrol();
+                }
                 break;
+
             case State.Chase:
-                if (sees && dist <= attackRange) state = State.Attack;
-                else if (Time.time - lastSeen > loseSightTime) state =
-                State.Patrol;
-                else MoveToward(player.position, chaseSpeed);
+                if (sees && dist <= attackRange)
+                {
+                    state = State.Attack;
+                    Stop();
+                    Face(player.position);
+                }
+                else if (Time.time - lastSeen > loseSightTime)
+                {
+                    state = State.Patrol;
+                    Stop();
+                }
+                else
+                {
+                    MoveToward(player.position, chaseSpeed);
+                }
                 break;
+
             case State.Attack:
                 Stop();
                 Face(player.position);
+
                 if (!sees || dist > attackRange * 1.2f)
                 {
-                    state =
-                State.Chase; break;
+                    CancelAttack();
+                    state = State.Chase;
+                    break;
                 }
-                if (Time.time >= nextAttack)
-                {
-                    nextAttack = Time.time +
-                attackCooldown; DoAttack();
-                }
+
+                if (Time.time >= nextAttack && !attackPending)
+                    DoAttack();
+
                 break;
         }
-        if (animator != null) animator.SetFloat("Speed",
-        rb.linearVelocity.magnitude);
+
+        UpdateAnimations();
     }
-    bool CanSee(float dist)
+
+    private bool CanSee(float dist)
     {
-        if (dist <= hearRange) return true;
-        if (dist > sightRange) return false;
-        float side = Mathf.Sign(player.position.x - transform.position.x);
-        if (side != dir) return false; // solo ve hacia delante
-        var hit = Physics2D.Linecast(transform.position + Vector3.up * 0.5f,
-        player.position + Vector3.up * 0.5f,
-        sightMask);
-        return hit.collider == null || hit.collider.CompareTag("Player");
+        if (dist <= hearRange)
+            return true;
+
+        if (dist > sightRange)
+            return false;
+
+        float side = Mathf.Sign(
+            player.position.x - transform.position.x
+        );
+
+        if (side != dir)
+            return false;
+
+        Vector2 origin = (Vector2)transform.position
+            + Vector2.up * 0.5f;
+
+        Vector2 target = (Vector2)player.position
+            + Vector2.up * 0.5f;
+
+        RaycastHit2D hit = Physics2D.Linecast(
+            origin,
+            target,
+            sightMask
+        );
+
+        return hit.collider == null ||
+               hit.collider.CompareTag("Player");
     }
-    void Patrol()
+
+    private void Patrol()
     {
-        if (waypoints == null || waypoints.Length == 0) { Stop(); return; }
+        if (waypoints == null || waypoints.Length == 0)
+        {
+            Stop();
+            return;
+        }
+
+        if (wp >= waypoints.Length || waypoints[wp] == null)
+        {
+            Stop();
+            return;
+        }
+
         Vector2 target = waypoints[wp].position;
+
         if (Mathf.Abs(target.x - transform.position.x) < 0.25f)
         {
             Stop();
             wait += Time.deltaTime;
+
             if (wait >= waitAtWaypoint)
             {
-                wait = 0f; wp = (wp + 1) %
-            waypoints.Length;
+                wait = 0f;
+                wp = (wp + 1) % waypoints.Length;
             }
+
+            return;
         }
-        else MoveToward(target, patrolSpeed);
+
+        MoveToward(target, patrolSpeed);
     }
-    void MoveToward(Vector2 target, float speed)
+
+    private void MoveToward(Vector2 target, float speed)
     {
         speed *= speedMultiplier;
-        Vector2 d = target - (Vector2)transform.position;
-        dir = d.x >= 0f ? 1 : -1;
-        transform.localScale = new Vector3(dir, 1f, 1f); // el sprite mira a la derecha
-    if (flying) { rb.linearVelocity = d.normalized * speed; return; }
-        bool noGround = groundSensor != null &&
-        !Physics2D.Raycast(groundSensor.position, Vector2.down, 0.8f,
-        groundMask);
+
+        Vector2 delta = target - (Vector2)transform.position;
+
+        if (Mathf.Abs(delta.x) < 0.01f)
+        {
+            Stop();
+            return;
+        }
+
+        dir = delta.x >= 0f ? 1 : -1;
+        Face(target);
+
+        if (flying)
+        {
+            rb.linearVelocity = delta.normalized * speed;
+            return;
+        }
+
+        // Un enemigo terrestre necesita detectar suelo.
+        // Si falta el sensor, se detiene por seguridad.
+        bool noGround = groundSensor == null ||
+            !Physics2D.Raycast(
+                groundSensor.position,
+                Vector2.down,
+                0.8f,
+                groundMask
+            );
+
         bool wall = wallSensor != null &&
-        Physics2D.Raycast(wallSensor.position, Vector2.right * dir, 0.3f,
-        groundMask);
-        rb.linearVelocity = new Vector2((noGround || wall) ? 0f : dir *
-        speed, rb.linearVelocity.y);
+            Physics2D.Raycast(
+                wallSensor.position,
+                Vector2.right * dir,
+                0.3f,
+                groundMask
+            );
+
+        // Evita avanzar por un borde o atravesar una pared.
+        if (noGround || wall)
+        {
+            rb.linearVelocity = new Vector2(
+                0f,
+                rb.linearVelocity.y
+            );
+            return;
+        }
+
+        rb.linearVelocity = new Vector2(
+            dir * speed,
+            rb.linearVelocity.y
+        );
     }
-    void Stop()
+
+    private void Stop()
     {
-        rb.linearVelocity = flying ? Vector2.zero : new Vector2(0f,
-        rb.linearVelocity.y);
+        if (rb == null)
+            return;
+
+        rb.linearVelocity = flying
+            ? Vector2.zero
+            : new Vector2(0f, rb.linearVelocity.y);
     }
-    void Face(Vector2 p)
+
+    private void Face(Vector2 target)
     {
-        dir = p.x >= transform.position.x ? 1 : -1;
-        transform.localScale = new Vector3(dir, 1f, 1f);
+        dir = target.x >= transform.position.x ? 1 : -1;
+
+        if (spriteRenderer != null)
+            spriteRenderer.flipX = dir < 0;
     }
-    void DoAttack()
+
+    private void DoAttack()
     {
-        if (animator != null) animator.SetTrigger("Attack");
-        if (Random.value > accuracy) return;
-        var h = player.GetComponent<Health>();
-        if (h != null) h.TakeDamage(damage *
-        GameManager.I.damageTakenMultiplier);
+        nextAttack = Time.time + attackCooldown;
+        attackPending = true;
+
+        Trigger(attackTrigger);
+
+        Invoke(nameof(ApplyAttackDamage), attackDamageDelay);
     }
-    void Die()
+
+    private void ApplyAttackDamage()
     {
+        attackPending = false;
+
+        if (state != State.Attack || player == null)
+            return;
+
+        float dist = Vector2.Distance(
+            transform.position,
+            player.position
+        );
+
+        if (dist > attackRange * 1.2f)
+            return;
+
+        if (Random.value > accuracy)
+            return;
+
+        PlayerController2D target =
+            player.GetComponent<PlayerController2D>();
+
+        if (target != null)
+        {
+            float multiplier = GameManager.I != null
+                ? GameManager.I.damageTakenMultiplier
+                : 1f;
+
+            target.TakeDamage(damage * multiplier);
+        }
+    }
+
+    private void CancelAttack()
+    {
+        CancelInvoke(nameof(ApplyAttackDamage));
+        attackPending = false;
+    }
+
+    // Permite que Ike dañe al enemigo usando Health.
+    // No se necesita EnemyController2D.
+    public void TakeDamage(float dmg)
+    {
+        if (state == State.Dead || health == null)
+            return;
+
+        health.TakeDamage(dmg);
+
+        // La muerte la gestiona el evento onDeath de Health.
+        // No restar vida manualmente aquí.
+    }
+
+    private void Die()
+    {
+        if (state == State.Dead)
+            return;
+
         state = State.Dead;
+
+        CancelAttack();
         Stop();
-        if (animator != null) animator.SetTrigger("Die");
-        foreach (var c in GetComponentsInChildren<Collider2D>()) c.enabled =
-        false;
-        rb.simulated = flying ? false : rb.simulated;
-        if (lootPrefabs.Length > 0 && Random.value <= lootChance)
-            Instantiate(lootPrefabs[Random.Range(0, lootPrefabs.Length)],
-            transform.position + Vector3.up * 0.3f,
-            Quaternion.identity);
+
+        if (animator != null)
+            Trigger(dieTrigger);
+
+        foreach (Collider2D col in
+                 GetComponentsInChildren<Collider2D>())
+        {
+            col.enabled = false;
+        }
+
+        rb.linearVelocity = Vector2.zero;
+        rb.simulated = false;
+
+        if (lootPrefabs != null &&
+            lootPrefabs.Length > 0 &&
+            Random.value <= lootChance)
+        {
+            int index = Random.Range(0, lootPrefabs.Length);
+
+            if (lootPrefabs[index] != null)
+            {
+                Instantiate(
+                    lootPrefabs[index],
+                    transform.position + Vector3.up * 0.3f,
+                    Quaternion.identity
+                );
+            }
+        }
+
         Destroy(gameObject, 6f);
+    }
+
+    private void UpdateAnimations()
+    {
+        if (animator == null || rb == null)
+            return;
+
+        SetFloat(
+            speedParameter,
+            rb.linearVelocity.magnitude
+        );
+
+        SetBool(
+            walkParameter,
+            state != State.Dead &&
+            state != State.Attack &&
+            Mathf.Abs(rb.linearVelocity.x) > 0.05f
+        );
+    }
+
+    private void Trigger(string parameter)
+    {
+        if (animator == null ||
+            string.IsNullOrEmpty(parameter))
+            return;
+
+        foreach (AnimatorControllerParameter p
+                 in animator.parameters)
+        {
+            if (p.name == parameter &&
+                p.type == AnimatorControllerParameterType.Trigger)
+            {
+                animator.SetTrigger(parameter);
+                return;
+            }
+        }
+    }
+
+    private void SetFloat(string parameter, float value)
+    {
+        if (animator == null ||
+            string.IsNullOrEmpty(parameter))
+            return;
+
+        foreach (AnimatorControllerParameter p
+                 in animator.parameters)
+        {
+            if (p.name == parameter &&
+                p.type == AnimatorControllerParameterType.Float)
+            {
+                animator.SetFloat(parameter, value);
+                return;
+            }
+        }
+    }
+
+    private void SetBool(string parameter, bool value)
+    {
+        if (animator == null ||
+            string.IsNullOrEmpty(parameter))
+            return;
+
+        foreach (AnimatorControllerParameter p
+                 in animator.parameters)
+        {
+            if (p.name == parameter &&
+                p.type == AnimatorControllerParameterType.Bool)
+            {
+                animator.SetBool(parameter, value);
+                return;
+            }
+        }
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, attackRange);
+
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(transform.position, sightRange);
+
+        if (groundSensor != null)
+        {
+            Gizmos.color = Color.green;
+            Gizmos.DrawRay(
+                groundSensor.position,
+                Vector3.down * 0.8f
+            );
+        }
     }
 }

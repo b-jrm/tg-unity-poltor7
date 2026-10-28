@@ -56,11 +56,11 @@ public class Ladder : MonoBehaviour
             verticalInput * climbSpeed
         );
 
-        if (animator != null)
-        {
-            animator.SetBool("onLadder", true);
-            animator.SetFloat("vSpeed", Mathf.Abs(verticalInput));
-        }
+        //if (animator != null)
+        //{
+        //    animator.SetBool("onLadder", true);
+        //    animator.SetFloat("vSpeed", Mathf.Abs(verticalInput));
+        //}
     }
 
     private void OnTriggerStay2D(Collider2D collision)
@@ -81,8 +81,8 @@ public class Ladder : MonoBehaviour
             if (playerController != null)
                 playerController.usingLadder = true;
 
-            if (animator != null)
-                animator.SetBool("onLadder", true);
+            //if (animator != null)
+            //    animator.SetBool("onLadder", true);
         }
     }
 
@@ -97,11 +97,11 @@ public class Ladder : MonoBehaviour
         if (playerController != null)
             playerController.usingLadder = false;
 
-        if (animator != null)
-        {
-            animator.SetBool("onLadder", false);
-            animator.SetFloat("vSpeed", 0f);
-        }
+        //if (animator != null)
+        //{
+        //    animator.SetBool("onLadder", false);
+        //    animator.SetFloat("vSpeed", 0f);
+        //}
 
         // Pequeño impulso al salir si Ike está en el aire.
         if (playerController != null && !playerController.grounded)
