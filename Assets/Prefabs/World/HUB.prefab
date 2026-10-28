@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 7579071820141738324}
   - component: {fileID: 5804151232729334482}
   - component: {fileID: 8854736858148187219}
-  - component: {fileID: 2459634533423504087}
   - component: {fileID: 8734063947862508067}
   m_Layer: 5
   m_Name: HUB
@@ -106,31 +105,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &2459634533423504087
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5409173350312043}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dcfef32b2ddddb749968ed81967a937c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::HUDController
-  healthBar: {fileID: 4477619757535138314}
-  nutritionBar: {fileID: 1282456958278473081}
-  promptText: {fileID: 0}
-  messageText: {fileID: 5799234257410512625}
-  ammoText: {fileID: 4912666374993846070}
-  medkitText: {fileID: 1558633645286023057}
-  gameOverPanel: {fileID: 0}
-  itemIconsContainer: {fileID: 2868262988019653291}
-  itemIconPrefab: {fileID: 1545203454720514904, guid: 49702be4bd1366a4285f224150117aeb,
-    type: 3}
-  allItems:
-  - {fileID: 11400000, guid: b27940d22142c7544b10f3c5e898bfba, type: 2}
-  - {fileID: 11400000, guid: e6f880f3ba83da344a01f78713872efa, type: 2}
 --- !u!222 &8734063947862508067
 CanvasRenderer:
   m_ObjectHideFlags: 0
