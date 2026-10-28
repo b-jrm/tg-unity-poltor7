@@ -46,6 +46,9 @@ public class HUDController : MonoBehaviour
     private readonly Dictionary<string, Image> keyItems = new Dictionary<string, Image>();
 
     // ---------------------------------------------------------------- Unity
+    public static void Msg(string t) { if (Instance != null) Instance.ShowMessage(t); }
+
+    public static void Prompt(string t) { if (Instance != null) Instance.messageText.text = t; }
 
     private void Awake()
     {

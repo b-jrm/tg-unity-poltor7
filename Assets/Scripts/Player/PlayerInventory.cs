@@ -11,6 +11,7 @@ public class PlayerInventory : MonoBehaviour
     {
         if (Count(data.id) >= data.maxStack) return false;
         items[data.id] = Mathf.Min(data.maxStack, Count(data.id) + n);
+        KeyItemsHUD.Instance?.ShowKeyItem(data);
         OnChanged?.Invoke();
         return true;
     }

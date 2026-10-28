@@ -20,9 +20,11 @@ public class Interactor : MonoBehaviour
                 if (it == null) continue;
                 float d = ((Vector2)h.transform.position -
                 (Vector2)transform.position).sqrMagnitude;
+                // Debug.Log(d + " < " + best);
                 if (d < best) { best = d; current = it; }
             }
         }
+        // Debug.Log("current => " + current);
         HUDController.Prompt(current != null ? "[E] " + current.Prompt : "");
         if (current != null && Keyboard.current.eKey.wasPressedThisFrame)
             current.Interact(inv);

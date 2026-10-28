@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class HUDControllerBK : MonoBehaviour
 {
-    public static HUDController Instance { get; private set; }
+    public static HUDControllerBK Instance { get; private set; }
     public Slider healthBar, nutritionBar;
     public TMP_Text promptText, messageText, ammoText, medkitText;
     public GameObject gameOverPanel;
