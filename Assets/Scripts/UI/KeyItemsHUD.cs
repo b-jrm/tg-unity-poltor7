@@ -33,6 +33,7 @@ public class KeyItemsHUD : MonoBehaviour
     /// </summary>
     public void ShowKeyItem(ItemData item)
     {
+        Debug.Log($"KeyItemsHUB::ShowKeyItem(ItemData item: {item})");
         if (item == null)
         {
             Debug.LogWarning("KeyItemsHUD recibió un ItemData nulo.");
@@ -101,7 +102,50 @@ public class KeyItemsHUD : MonoBehaviour
         // Ayuda de accesibilidad y depuración.
         image.raycastTarget = false;
 
+        Debug.Log($"KeyItemsHUB::ShowKeyItem() => image: {image}");
+        Debug.Log($"KeyItemsHUB::ShowKeyItem() => iconObject: {iconObject}");
+
         iconObject.SetActive(true);
+    }
+
+    public void RemoveKeyItem(string itemId)
+    {
+        if (string.IsNullOrWhiteSpace(itemId))
+            return;
+
+        // Quitar el ID del conjunto de objetos visibles.
+        displayedItems.Remove(itemId);
+
+        if (keyItemsContainer == null)
+        {
+            //Debug.LogWarning(
+            //    "KeyItemsHUD: keyItemsContainer no está asignado."
+            //);
+            return;
+        }
+
+        // Buscar únicamente el icono del objeto indicado.
+        string iconName = "KeyItem_" + itemId;
+
+        for (int i = keyItemsContainer.childCount - 1; i >= 0; i--)
+        {
+            Transform child = keyItemsContainer.GetChild(i);
+
+            if (child.name == iconName)
+            {
+                Destroy(child.gameObject);
+
+                //Debug.Log(
+                //    $"KeyItemsHUD: icono eliminado: {iconName}"
+                //);
+
+                return;
+            }
+        }
+
+        //Debug.Log(
+        //    $"KeyItemsHUD: no se encontró el icono {iconName}."
+        //);
     }
 
     /// <summary>

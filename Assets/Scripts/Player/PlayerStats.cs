@@ -80,11 +80,31 @@ public class PlayerStats : MonoBehaviour
         }
 
         // Consumir alimento con F.
-        if (kb.fKey.wasPressedThisFrame &&
-            nutrition < maxNutrition &&
-            inv.Remove("ration"))
+        if (kb.fKey.wasPressedThisFrame)
         {
-            nutrition = Mathf.Min(maxNutrition, nutrition + 30f);
+
+            Debug.Log(
+                $"ANTES: Alimento={hp.Current}/{hp.maxHealth}, " +
+                $"Alimentos={inv.Count("ration")}"
+            );
+
+            if (nutrition < maxNutrition && inv.Remove("ration"))
+            {
+                nutrition = Mathf.Min(maxNutrition, nutrition + 30f);
+
+                Debug.Log(
+                    $"DESPUÉS: Alimento={nutrition}/{maxNutrition}, " +
+                    $"Alimentos={inv.Count("ration")}"
+                );
+
+                HUDController.Msg("Alimento usado: +30");
+            }
+            else
+            {
+                Debug.Log("No se usó el Alimento: alimento máximo o inventario vacío.");
+            }
+
+            
         }
 
         // Usar antídoto con G.

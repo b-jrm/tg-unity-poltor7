@@ -1,3 +1,4 @@
+using NUnit;
 using UnityEngine;
 public class PickupItem : MonoBehaviour, IInteractable
 {
@@ -8,11 +9,13 @@ public class PickupItem : MonoBehaviour, IInteractable
     public string Prompt => "Recoger " + item.displayName;
     void Start()
     {
+        Debug.Log($"PickupItem::Start() => uniqueId {uniqueId}");
         if (!string.IsNullOrEmpty(uniqueId) && GameManager.I.HasFlag("pk_" + uniqueId))
             Destroy(gameObject);
     }
     public void Interact(PlayerInventory inv)
     {
+        Debug.Log($"PickupItem::Interact(PlayerInventory inv: ${inv})");
         if (!inv.Add(item, amount))
         {
             HUDController.Msg("No puedes llevar mas " + item.displayName);
