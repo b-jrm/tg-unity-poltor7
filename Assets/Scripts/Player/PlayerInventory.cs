@@ -22,8 +22,10 @@ public class PlayerInventory : MonoBehaviour
     }
     public bool Remove(string id, int n = 1)
     {
+        //Debug.Log($"Remove(id: {id}, int n: {n})");
         if (!Has(id, n)) return false;
         items[id] -= n;
+        //Debug.Log($"items[{id}]: {items[id]}");
         if (items[id] <= 0) items.Remove(id);
         OnChanged?.Invoke();
         return true;

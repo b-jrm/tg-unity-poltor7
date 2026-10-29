@@ -44,6 +44,8 @@ public class HUDController : MonoBehaviour
     private Image nutritionFill;
     private Coroutine messageRoutine;
     private readonly Dictionary<string, Image> keyItems = new Dictionary<string, Image>();
+    private Health playerHealth;
+    private PlayerStats playerStats;
 
     // ---------------------------------------------------------------- Unity
     public static void Msg(string t) { if (Instance != null) Instance.ShowMessage(t); }
@@ -52,6 +54,8 @@ public class HUDController : MonoBehaviour
 
     private void Awake()
     {
+        //Debug.Log($"healthSlider: {healthSlider}");
+
         if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
@@ -99,7 +103,9 @@ public class HUDController : MonoBehaviour
     /// <summary>Actualiza la barra de salud.</summary>
     public void SetHealth(float current, float max)
     {
+        //Debug.Log($"current: {current}, max: {max}");
         healthTarget = max > 0f ? Mathf.Clamp01(current / max) : 0f;
+        //Debug.Log($"healthTarget: {healthTarget}");
     }
 
     /// <summary>Actualiza la barra de nutrición.</summary>
@@ -216,4 +222,46 @@ public class HUDController : MonoBehaviour
         messageText.alpha = 0f;
         messageRoutine = null;
     }
+
+    public void ConnectPlayer(GameObject player)
+    {
+        if (player == null)
+        {
+            Debug.LogError("HUDController: el jugador es null.");
+            return;
+        }
+
+        playerHealth = player.GetComponent<Health>();
+        playerStats = player.GetComponent<PlayerStats>();
+
+        if (playerHealth == null)
+        {
+            Debug.LogError("HUDController: Ike no tiene componente Health.");
+            return;
+        }
+
+        // Escuchar todos los cambios de salud.
+        playerHealth.OnChanged += HandleHealthChanged;
+
+        // Mostrar la salud real inmediatamente.
+        HandleHealthChanged(
+            playerHealth.Current,
+            playerHealth.maxHealth
+        );
+
+        if (playerStats != null)
+            SetNutrition(playerStats.nutrition, playerStats.maxNutrition);
+    }
+
+    private void HandleHealthChanged(float current, float max)
+    {
+        SetHealth(current, max);
+    }
+
+    private void OnDisable()
+    {
+        if (playerHealth != null)
+            playerHealth.OnChanged -= HandleHealthChanged;
+    }
+
 }

@@ -1,5 +1,7 @@
+
 using UnityEngine;
 using UnityEngine.InputSystem;
+
 [RequireComponent(typeof(Health), typeof(PlayerInventory))]
 public class PlayerStats : MonoBehaviour
 {
@@ -7,32 +9,113 @@ public class PlayerStats : MonoBehaviour
     public float maxNutrition = 100f;
     public float decayPerSecond = 0.15f;
     public float starveDamagePerSecond = 1f;
-    Health hp;
-    PlayerInventory inv;
-    float poisonTime, poisonDps;
-    void Awake()
+
+    private Health hp;
+    private PlayerInventory inv;
+
+    private float poisonTime;
+    private float poisonDps;
+
+    private void Awake()
     {
         hp = GetComponent<Health>();
         inv = GetComponent<PlayerInventory>();
     }
-    void Update()
+
+    private void Start()
     {
-        nutrition = Mathf.Max(0f, nutrition - decayPerSecond * Time.deltaTime);
-        if (nutrition <= 0f) hp.TakeDamage(starveDamagePerSecond * Time.deltaTime);
+        if (HUDController.Instance != null)
+            HUDController.Instance.ConnectPlayer(gameObject);
+
+        UpdateHUD();
+    }
+
+    private void Update()
+    {
+        nutrition = Mathf.Max(
+            0f,
+            nutrition - decayPerSecond * Time.deltaTime
+        );
+
+        if (nutrition <= 0f)
+            hp.TakeDamage(starveDamagePerSecond * Time.deltaTime);
+
         if (poisonTime > 0f)
         {
             poisonTime -= Time.deltaTime;
             hp.TakeDamage(poisonDps * Time.deltaTime);
         }
-        if (!PlayerController.InputEnabled) return;
+
+        if (!PlayerController.InputEnabled)
+            return;
+
+        if (Keyboard.current == null)
+            return;
+
         var kb = Keyboard.current;
-        if (kb.hKey.wasPressedThisFrame && hp.Current < hp.maxHealth && inv.Remove("medkit"))
-            hp.Heal(40f);
-        if (kb.fKey.wasPressedThisFrame && nutrition < maxNutrition && inv.Remove("ration"))
+
+        // Usar un botiquín con H.
+        if (kb.hKey.wasPressedThisFrame)
+        {
+            Debug.Log(
+                $"ANTES: Salud={hp.Current}/{hp.maxHealth}, " +
+                $"Botiquines={inv.Count("medkit")}"
+            );
+
+            if (hp.Current < hp.maxHealth && inv.Remove("medkit"))
+            {
+                hp.Heal(40f);
+
+                Debug.Log(
+                    $"DESPUÉS: Salud={hp.Current}/{hp.maxHealth}, " +
+                    $"Botiquines={inv.Count("medkit")}"
+                );
+
+                HUDController.Msg("Botiquín usado: +40 de salud");
+            }
+            else
+            {
+                Debug.Log("No se usó el botiquín: salud máxima o inventario vacío.");
+            }
+        }
+
+        // Consumir alimento con F.
+        if (kb.fKey.wasPressedThisFrame &&
+            nutrition < maxNutrition &&
+            inv.Remove("ration"))
+        {
             nutrition = Mathf.Min(maxNutrition, nutrition + 30f);
-        if (kb.gKey.wasPressedThisFrame && poisonTime > 0f && inv.Remove("antidote"))
+        }
+
+        // Usar antídoto con G.
+        if (kb.gKey.wasPressedThisFrame &&
+            poisonTime > 0f &&
+            inv.Remove("antidote"))
+        {
             poisonTime = 0f;
+            poisonDps = 0f;
+            HUDController.Msg("Veneno eliminado");
+        }
+
+        UpdateHUD();
     }
-    // Lo llaman las esporas: Poison(10f, 3f) = 3 de dano por segundo durante 10 s
-    public void Poison(float seconds, float dps) { poisonTime = seconds; poisonDps = dps; }
+
+    private void UpdateHUD()
+    {
+        // Debug.Log("PalyerStats::UpdateHUD() => " + HUDController.Instance);
+        // Debug.Log($"PalyerStats::hp => {hp}");
+
+        if (HUDController.Instance == null)
+            return;
+
+        HUDController.Instance.SetHealth(hp.Current, hp.maxHealth);
+        HUDController.Instance.SetNutrition(nutrition, maxNutrition);
+        HUDController.Instance.SetMedkits(inv.Count("medkit"));
+    }
+
+    public void Poison(float seconds, float dps)
+    {
+        poisonTime = seconds;
+        poisonDps = dps;
+    }
 }

@@ -27,6 +27,7 @@ public class PlayerController2D : MonoBehaviour
     Rigidbody2D rb;
     Animator anim;
     SpriteRenderer sr;
+    Health playerHealth;
     public bool grounded;
     bool dead;
     float lockUntil;                          // bloquea moverse mientras ataca
@@ -39,7 +40,19 @@ public class PlayerController2D : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
+
+        // Usar el componente Health como única fuente de salud.
+        playerHealth = GetComponent<Health>();
+
         rb.freezeRotation = true;
+
+        if (playerHealth == null)
+        {
+            Debug.LogError(
+                "PlayerController2D: falta el componente Health en Ike.",
+                this
+            );
+        }
     }
 
     void Update()
@@ -108,18 +121,41 @@ public class PlayerController2D : MonoBehaviour
     }
 
     // Llamar desde enemigos o trampas
-    public float health = 100f;
+    // public float health = 100f;
+    // Llamado por enemigos, trampas y otros sistemas de daño.
     public void TakeDamage(float dmg)
     {
         if (dead) return;
-        health -= dmg;
-        if (health <= 0f)
+
+        if (playerHealth == null)
+        {
+            Debug.LogError(
+                "Ike no tiene el componente Health. No se puede aplicar el daño.",
+                this
+            );
+            return;
+        }
+
+        if (dmg <= 0f) return;
+
+        // Aplicar daño a la salud que utiliza la barra del HUD.
+        playerHealth.TakeDamage(dmg);
+
+        //Debug.Log(
+        //    $"Ike recibe {dmg} de daño. Salud: " +
+        //    $"{playerHealth.Current}/{playerHealth.maxHealth}"
+        //);
+
+        // Comprobar si Ike murió.
+        if (playerHealth.IsDead)
         {
             dead = true;
             rb.linearVelocity = Vector2.zero;
             Trigger("Die");
             return;
         }
+
+        // Animación de daño si sigue vivo.
         Trigger("Hurt");
     }
 
