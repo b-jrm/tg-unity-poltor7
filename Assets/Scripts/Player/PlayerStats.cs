@@ -57,25 +57,25 @@ public class PlayerStats : MonoBehaviour
         // Usar un botiquín con H.
         if (kb.hKey.wasPressedThisFrame)
         {
-            Debug.Log(
-                $"ANTES: Salud={hp.Current}/{hp.maxHealth}, " +
-                $"Botiquines={inv.Count("medkit")}"
-            );
+            //Debug.Log(
+            //    $"ANTES: Salud={hp.Current}/{hp.maxHealth}, " +
+            //    $"Botiquines={inv.Count("medkit")}"
+            //);
 
             if (hp.Current < hp.maxHealth && inv.Remove("medkit"))
             {
                 hp.Heal(40f);
 
-                Debug.Log(
-                    $"DESPUÉS: Salud={hp.Current}/{hp.maxHealth}, " +
-                    $"Botiquines={inv.Count("medkit")}"
-                );
+                //Debug.Log(
+                //    $"DESPUÉS: Salud={hp.Current}/{hp.maxHealth}, " +
+                //    $"Botiquines={inv.Count("medkit")}"
+                //);
 
                 HUDController.Msg("Botiquín usado: +40 de salud");
             }
             else
             {
-                Debug.Log("No se usó el botiquín: salud máxima o inventario vacío.");
+                //Debug.Log("No se usó el botiquín: salud máxima o inventario vacío.");
             }
         }
 
@@ -83,25 +83,25 @@ public class PlayerStats : MonoBehaviour
         if (kb.fKey.wasPressedThisFrame)
         {
 
-            Debug.Log(
-                $"ANTES: Alimento={hp.Current}/{hp.maxHealth}, " +
-                $"Alimentos={inv.Count("ration")}"
-            );
+            //Debug.Log(
+            //    $"ANTES: Alimento={hp.Current}/{hp.maxHealth}, " +
+            //    $"Alimentos={inv.Count("ration")}"
+            //);
 
             if (nutrition < maxNutrition && inv.Remove("ration"))
             {
                 nutrition = Mathf.Min(maxNutrition, nutrition + 30f);
 
-                Debug.Log(
-                    $"DESPUÉS: Alimento={nutrition}/{maxNutrition}, " +
-                    $"Alimentos={inv.Count("ration")}"
-                );
+                //Debug.Log(
+                //    $"DESPUÉS: Alimento={nutrition}/{maxNutrition}, " +
+                //    $"Alimentos={inv.Count("ration")}"
+                //);
 
                 HUDController.Msg("Alimento usado: +30");
             }
             else
             {
-                Debug.Log("No se usó el Alimento: alimento máximo o inventario vacío.");
+                //Debug.Log("No se usó el Alimento: alimento máximo o inventario vacío.");
             }
 
             
